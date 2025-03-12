@@ -51,60 +51,60 @@ function createRegisteredUserMenu() {
 		
 
 		if(index == 0){
-			indexHref = '/account#user-details';
+			indexHref = '/my/PrintPenguin/view/account#user-details';
 			indexLink = '#user-details';
 			indexName = 'User details';
 			indexIcon = 'fi-rr-user';
 		} else if(index == 1){
-			indexHref = '/account/account-details';
+			indexHref = '/my/PrintPenguin/view/account/account-details';
 			/* indexLink = '#details'; */
 			indexName = 'Account Access';
 			indexIcon = 'fi-rr-user-add';
 		} else if(index == 2){
-			indexHref = '/account#company-details';
+			indexHref = '/my/PrintPenguin/view/account#company-details';
 			indexLink = '#company-details';
 			indexName = 'Company details';
 			indexIcon = 'fi-rr-briefcase';
 		} else if(index == 3){
-			indexHref = '/account/shopping-cart';
+			indexHref = '/my/PrintPenguin/view/account/shopping-cart';
 			indexName = 'Cart';
 			indexIcon = 'fi-rr-shopping-cart';
 		} else if(index == 4){
-			indexHref = '/account#orders';
+			indexHref = '/my/PrintPenguin/view/account#orders';
 			indexLink = '#orders';
 			indexName = 'My orders';
 			indexIcon = 'fi-rr-shopping-bag';
 		} else if(index == 5){
-			indexHref = '/account#address-book';
+			indexHref = '/my/PrintPenguin/view/account#address-book';
 			indexLink = '#address-book';
 			indexName = 'Address book';
 			indexIcon = 'fi-rr-marker';
 		} else if(index == 6){
-			indexHref = '/account/wallet';
+			indexHref = '/my/PrintPenguin/view/account/wallet';
 			/* indexLink = '#payment-methods'; */
 			indexName = 'Payment Methods';
 			indexIcon = 'fi-rr-credit-card';
 		} else if(index == 7){
-			indexHref = '/account/saved-jobs';
+			indexHref = '/my/PrintPenguin/view/account/saved-jobs';
 		/* 	indexLink = '#saved-jobs'; */
 			indexName = 'Saved Jobs';
 			indexIcon = 'fi-rr-label';
 		} else if(index == 8){
-			indexHref = '/account#favorites';
+			indexHref = '/my/PrintPenguin/view/account#favorites';
 			indexLink = '#favorites';
 			indexName = 'Favorites';
 			indexIcon = 'fi-rr-heart';
 		} else if(index == 9){
-			indexHref = '/account/artwork-library';
+			indexHref = '/my/PrintPenguin/view/account/artwork-library';
 			/* indexLink = '#artwork-library'; */
 			indexName = 'Artwork Library';
 			indexIcon = 'fi-rr-gallery';
 		}else if(index == 10){
-			indexHref = '/account/discounts';
+			indexHref = '/my/PrintPenguin/view/account/discounts';
 			indexName = 'Discounts & Affiliates';
 			indexIcon = 'fi-rr-users-alt';
 		} else if(index == 11){
-			indexHref = '/account#custom-designs';
+			indexHref = '/my/PrintPenguin/view/account#custom-designs';
 			indexLink = '#custom-designs';
 			indexName = 'Custom Design';
 			indexIcon = 'fi-rr-edit-alt';
@@ -123,7 +123,7 @@ function createRegisteredUserMenu() {
 			userMenuLink.role = 'button'; 
 			userMenuLink.dataset.bsToggle = 'modal';
 		} else if(index == 15){
-			indexHref = '/account/register';
+			indexHref = '/my/PrintPenguin/view/account/register';
 			indexName = 'Sign Out';
 			indexIcon = 'fi-rr-enter';
 		}

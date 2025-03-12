@@ -109,11 +109,11 @@ function createRegisteredUserMenu() {
 			indexName = 'Custom Design';
 			indexIcon = 'fi-rr-edit-alt';
 		} else if(index == 12){
-			indexHref = '/chat';
+			indexHref = '/my/PrintPenguin/view/support/chat.html';
 			indexName = 'Need help?';
 			indexIcon = 'fi-rr-question-square';
 		} else if(index == 13){
-			indexHref = '/contact';
+			indexHref = '/my/PrintPenguin/view/contact.html';
 			indexName = 'Contact us';
 			indexIcon = 'fi-rr-envelope';
 		} else if(index == 14){

@@ -57,7 +57,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 3){
             indexName = 'Cart';
             indexIcon = 'fi-rr-shopping-cart';
-            link.href = '/my/PrintPenguin/view/account/shopping-cart';
+            link.href = '/my/PrintPenguin/view/account/cart';
         } else if(index == 4){
             indexName = 'My orders';
             indexIcon = 'fi-rr-shopping-bag';
@@ -94,7 +94,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 9){
             indexName = '<span class="ps-1">Artwork Library</span></a>';
             indexIcon = 'fi-rr-gallery';
-            link.href = '/my/PrintPenguin/view/account/artwork-library';
+            link.href = '/my/PrintPenguin/view/account/library.html';
            /*  indexId = 'artwork-library-link';
             indexDataTarget = '#account-artwork-library';
             indexAriaControls = 'account-artwork-library'; */

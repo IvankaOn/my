@@ -66,7 +66,7 @@ function createRegisteredUserMenu() {
 			indexName = 'Company details';
 			indexIcon = 'fi-rr-briefcase';
 		} else if(index == 3){
-			indexHref = '/my/PrintPenguin/view/account/shopping-cart';
+			indexHref = '/my/PrintPenguin/view/account/cart';
 			indexName = 'Cart';
 			indexIcon = 'fi-rr-shopping-cart';
 		} else if(index == 4){
@@ -95,7 +95,7 @@ function createRegisteredUserMenu() {
 			indexName = 'Favorites';
 			indexIcon = 'fi-rr-heart';
 		} else if(index == 9){
-			indexHref = '/my/PrintPenguin/view/account/artwork-library';
+			indexHref = '/my/PrintPenguin/view/account/library.html';
 			/* indexLink = '#artwork-library'; */
 			indexName = 'Artwork Library';
 			indexIcon = 'fi-rr-gallery';

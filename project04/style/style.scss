@@ -1,0 +1,292 @@
+$dark: #494949;
+$light:#959595;
+
+// font-family: 'Roboto', sans-serif;
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: $dark;
+    background-color: #eaeaea;
+}
+.wrapper{
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    position: relative;
+}
+// *********************
+// ******NAV************
+// *********************
+
+.header{
+    height: 125px;
+}
+.navigation{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 35px;
+     padding-bottom: 40px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    &_item{
+        padding-left: 22px;
+        margin-left: 22px;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        position: relative;
+    }
+    ::before{
+        content: '';
+        background-color:  $dark;
+        display: block;
+        height: 100%;
+        width: 2px;
+        left: 0;
+        position: absolute;
+    }
+    :first-child::before{
+        display: none;
+    }
+
+    &_link{
+        text-decoration: none;
+        color: $dark;
+    }
+}
+// *********************
+// ******banner************
+// *********************
+.hat{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+   
+}
+.banner{
+    padding-top: 260px;
+    padding-bottom: 280px;
+    
+    &-title-1{
+        font-size: 50px;
+        font-weight: 400;
+        color: #fff;
+    }
+    &-p{
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;  
+        width: 560px;
+        margin-bottom: 30px;
+    }
+    &-btn{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        max-width: 190px;
+        text-align: center;
+        border: 2px solid #fff;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 16px 0;
+    }
+    .banner-btn:hover{ 
+        border: 2px solid $light;
+        color: $dark;
+    
+    }
+
+}
+.img-banner{
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+// *********************
+// ******page************
+// *********************
+.page{
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+}
+.progress{
+    &-title-2{
+       font-size: 45px;
+       font-weight: 700;
+       text-align: center;
+       margin: 20px 0;
+       position: relative;
+       padding-left: 127px;
+       padding-right: 127px;
+       
+    &::before, &::after{
+            content: '';
+            display: inline-block;
+            background-image: url(../images/shape-2.svg);
+            width: 102px;
+            height: 28px;
+            margin: 0 20px;
+        }
+    }
+    &-p{
+        font-family: 'Roboto', sans-serif;  
+        font-size: 20px;
+        font-weight: 400;
+        color: $light;
+        margin: 0;
+        text-align: center;
+    }
+    &-item{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 34px;
+    }
+    
+    &-row{
+        margin-right: 15px;
+        margin-left: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+     
+        position: relative;
+        
+        &::before{
+            content: '';
+            display: inline-block;
+            background-color: $dark;
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+           
+        }
+        &:first-child::before{
+            display: none;
+        }
+    }
+    &-link{
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $dark;
+        padding-bottom: 17px;
+        &:hover{
+            border-bottom: 4px solid #ed252d;
+            position: relative;
+        
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: 0 auto;
+                display: block;
+                width: 0;
+                height: 0;
+                border: 7px solid transparent;
+                border-bottom: 7px solid #ed252d;
+                
+            }
+        }
+        
+    }
+  
+}
+.progress-bar{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(184,180,184,1);                  
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 43px;
+    margin-bottom: 68px;
+
+    &-item{
+        padding: 40px 40px;
+       
+        &:first-of-type .progress-bar-text::after {
+            display: none; 
+        }
+
+    }
+    &-numb{
+        font-size: 120px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 20px; 
+    }
+    
+    &-title{
+        font-size: 45px;
+        font-weight: bold;
+        text-transform: uppercase; 
+    }
+    &-text{
+        font-family: 'Roboto', sans-serif; 
+        font-size: 18px;
+        font-weight: 400; 
+        line-height: 1.5em;
+        position: relative;
+       
+        &::after{
+            content: '';
+            display: inline-block;
+            background-color: #e9e9e9;
+            width: 2px;
+            height: 140px;
+            position: absolute;
+            left: -45px;
+            top: -69px;
+        } 
+        // &:first-child:after{
+        //     display: none;
+        // }
+    }
+    &-btn{
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 55px;
+        color: #eaeaea;
+        margin-top: 68px;
+        display: block;
+        margin: 0 auto;
+        background-image: url(../images/btn.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 469px;
+        height: 93px;
+    }
+}
+// *********************
+// ******footer************
+.footer{
+    background-image: url(../images/footer-bg.jpg);
+    height: 107px;
+    margin-top: 70px;
+    display: flex;
+    &-p{
+        margin: 0 auto;
+        color: #e9e9e9;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 45px;
+    }
+}
+

@@ -56,7 +56,7 @@ function createRegisteredUserMenu() {
 			indexName = 'User details';
 			indexIcon = 'fi-rr-user';
 		} else if(index == 1){
-			indexHref = '/my/PrintPenguin/view/account/account-details';
+			indexHref = '/my/PrintPenguin/view/account/account-details.html';
 			/* indexLink = '#details'; */
 			indexName = 'Account Access';
 			indexIcon = 'fi-rr-user-add';
@@ -66,7 +66,7 @@ function createRegisteredUserMenu() {
 			indexName = 'Company details';
 			indexIcon = 'fi-rr-briefcase';
 		} else if(index == 3){
-			indexHref = '/my/PrintPenguin/view/account/cart';
+			indexHref = '/my/PrintPenguin/view/account/cart.html';
 			indexName = 'Cart';
 			indexIcon = 'fi-rr-shopping-cart';
 		} else if(index == 4){
@@ -80,12 +80,12 @@ function createRegisteredUserMenu() {
 			indexName = 'Address book';
 			indexIcon = 'fi-rr-marker';
 		} else if(index == 6){
-			indexHref = '/my/PrintPenguin/view/account/wallet';
+			indexHref = '/my/PrintPenguin/view/account/wallet.html';
 			/* indexLink = '#payment-methods'; */
 			indexName = 'Payment Methods';
 			indexIcon = 'fi-rr-credit-card';
 		} else if(index == 7){
-			indexHref = '/my/PrintPenguin/view/account/saved-jobs';
+			indexHref = '/my/PrintPenguin/view/account/saved-jobs.html';
 		/* 	indexLink = '#saved-jobs'; */
 			indexName = 'Saved Jobs';
 			indexIcon = 'fi-rr-label';
@@ -100,7 +100,7 @@ function createRegisteredUserMenu() {
 			indexName = 'Artwork Library';
 			indexIcon = 'fi-rr-gallery';
 		}else if(index == 10){
-			indexHref = '/my/PrintPenguin/view/account/discounts';
+			indexHref = '/my/PrintPenguin/view/account/discounts.html';
 			indexName = 'Discounts & Affiliates';
 			indexIcon = 'fi-rr-users-alt';
 		} else if(index == 11){
@@ -123,7 +123,7 @@ function createRegisteredUserMenu() {
 			userMenuLink.role = 'button'; 
 			userMenuLink.dataset.bsToggle = 'modal';
 		} else if(index == 15){
-			indexHref = '/my/PrintPenguin/view/account/register';
+			indexHref = '/my/PrintPenguin/view/modal/register.html';
 			indexName = 'Sign Out';
 			indexIcon = 'fi-rr-enter';
 		}

@@ -44,7 +44,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 1){
             indexName = 'Account Access';
             indexIcon = 'fi-rr-user-add';
-            link.href = '/my/PrintPenguin/view/account/account-details';
+            link.href = '/my/PrintPenguin/view/account/account-details.html';
             /* indexId = 'details-link';
             indexDataTarget = '#account-details';
             indexAriaControls = 'account-details'; */
@@ -57,7 +57,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 3){
             indexName = 'Cart';
             indexIcon = 'fi-rr-shopping-cart';
-            link.href = '/my/PrintPenguin/view/account/cart';
+            link.href = '/my/PrintPenguin/view/account/cart.html';
         } else if(index == 4){
             indexName = 'My orders';
             indexIcon = 'fi-rr-shopping-bag';
@@ -73,7 +73,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 6){
             indexName = 'Payment Methods';
             indexIcon = 'fi-rr-credit-card';
-            link.href = '/my/PrintPenguin/view/account/wallet';
+            link.href = '/my/PrintPenguin/view/account/wallet.html';
            /*  indexId = 'payment-methods-link';
             indexDataTarget = '#account-payment-methods';
             indexAriaControls = 'account-payment-methods'; */
@@ -81,7 +81,7 @@ function createRegisteredAccountMenu(){
             indexName = '<span class="ps-1">Saved Jobs</span>';
             icon.className = 'me-3 me-xl-4 text-xs lh-1 align-middle';
             indexIcon = 'fi-rr-label';
-            link.href = '/my/PrintPenguin/view/account/saved-jobs';
+            link.href = '/my/PrintPenguin/view/account/saved-jobs.html';
          /*    indexId = 'saved-jobs-link';
             indexDataTarget = '#account-saved-jobs';
             indexAriaControls = 'account-saved-jobs'; */
@@ -112,7 +112,7 @@ function createRegisteredAccountMenu(){
         } else if(index == 12){
             indexName = 'Discounts & Affiliates';
             indexIcon = 'fi-rr-users-alt';
-            link.href = '/my/PrintPenguin/view/account/discounts';
+            link.href = '/my/PrintPenguin/view/account/discounts.html';
             
         }
 

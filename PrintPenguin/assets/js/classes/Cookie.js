@@ -6,7 +6,7 @@
 	 *
 	 * @module Cookie
 	 *
-	 * @requires /assets/js/classes/Log.js
+	 * @requires /my/PrintPenguin/assets/js/classes/Log.js
 	 */
 	const Cookie = (() => {
 		

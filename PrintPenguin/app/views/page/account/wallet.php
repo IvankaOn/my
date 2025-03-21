@@ -315,7 +315,7 @@
                             <a href="/my/PrintPenguin/view/company/about.html" class="footer-menu-link">
                                 About Us
                             </a>
-                            <a href="/contact" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/contact.html" class="footer-menu-link">
                                 Contact Us
                             </a>
                             <a href="/privacy-policy" class="footer-menu-link">

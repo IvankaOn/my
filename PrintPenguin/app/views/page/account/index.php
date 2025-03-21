@@ -1672,7 +1672,7 @@
 
                             </a>
 
-                            <a href="/contact" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/contact.html" class="footer-menu-link">
 
                                 Contact Us
 

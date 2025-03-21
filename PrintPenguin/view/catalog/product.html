@@ -332,7 +332,7 @@
                                 <h3 class="text-xs mb-0">FREE Designing for Cart Value above $500 </h3>
                             </div>
                         </div>
-                        <a href="/checkout" class="btn btn-primary w-100">Upload Your Own Design</a>
+                        <a href="/my/PrintPenguin/view/checkout/index.html" class="btn btn-primary w-100">Upload Your Own Design</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 pe-lg-5">

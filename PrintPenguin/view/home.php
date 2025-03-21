@@ -303,7 +303,7 @@
                             </div>
                         </div>
                         <span class="btn-view-container">
-                            <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                            <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                             <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                         </span>
                     </div>
@@ -397,7 +397,7 @@
                             </div>
                         </div>
                         <span class="btn-view-container">
-                            <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                            <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                             <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                         </span>
                     </div>
@@ -446,7 +446,7 @@
                             </div>
                         </div>
                         <span class="btn-view-container">
-                            <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                            <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                             <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                         </span>
                     </div>
@@ -583,7 +583,7 @@
                         </div>
                     </div>
                     <span class="btn-view-container">
-                        <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                        <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                         <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                     </span>
                 </div>
@@ -677,7 +677,7 @@
                         </div>
                     </div>
                     <span class="btn-view-container">
-                        <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                        <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                         <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                     </span>
                 </div>
@@ -765,7 +765,7 @@
                             </div>
                         </div>
                         <span class="btn-view-container">
-                            <a class="d-none d-xxl-inline-block" href="/printing">View All</a>
+                            <a class="d-none d-xxl-inline-block" href="/my/PrintPenguin/view/form/printing.html">View All</a>
                             <button type="button" class="btn btn-azure text-white btn-animation-arrow rounded-sm-circle big-btn-azure-circle mt-3 mt-sm-0" onclick="location.href='/printing'" ><span class="d-sm-none">See More Products</span> <span class="icon-arrow-right-1 fs-6 ms-2 ms-sm-0 btn-animation-arrow-right d-inline-block"></span></button>
                         </span>
                     </div>
@@ -928,10 +928,10 @@
                         <button class="collapse-button collapsed position-relative fw-semibold text-grey d-block d-lg-none border-0 bg-trasparent w-100 text-start px-0"
                         data-bs-toggle="collapse" data-bs-target="#collapseHelp" aria-expanded="false" aria-controls="collapseHelp">Solutions</button>
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseHelp">
-                            <a href="/printing" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/printing.html" class="footer-menu-link">
                                 Printing
                             </a>
-                            <a href="/professional-print-design-service" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/design.html" class="footer-menu-link">
                                 Graphic Design
                             </a>
                             <a href="/pro-services" class="footer-menu-link">

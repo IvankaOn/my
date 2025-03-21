@@ -697,13 +697,13 @@
 
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseHelp">
 
-                            <a href="/printing" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/printing.html" class="footer-menu-link">
 
                                 Printing
 
                             </a>
 
-                            <a href="/professional-print-design-service" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/design.html" class="footer-menu-link">
 
                                 Graphic Design
 

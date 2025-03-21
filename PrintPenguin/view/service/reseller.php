@@ -318,15 +318,15 @@
                             <h4 class="text-xll mb-0">Realtors</h4>
                             <p class="mb-2">Facilitating Your Client Connections</p>
                             <div class="row row-cols-2 row-cols-sm-3 py-3 py-lg-0 justify-content-center justify-content-lg-start">
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Business Cards</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Key Chains</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Lawn Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Postcards</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Notepads</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Pull Up Banners</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Door Hangers</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Calendars</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">For Sale Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Business Cards</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Key Chains</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Lawn Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Postcards</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Notepads</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Pull Up Banners</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Door Hangers</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Calendars</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">For Sale Signs</a>
                             </div>
                             <a href="" class="btn-link text-dark btn-animation-arrow mt-3 d-block text-xs">View More Products <span class="icon-arrow-right-1 ms-2 btn-animation-arrow-right d-inline-block"></span></a>
                         </div>
@@ -341,15 +341,15 @@
                             <h4 class="text-xll mb-0">Contractors</h4>
                             <p class="mb-2">Empowering Your Business Growth</p>
                             <div class="row row-cols-2 row-cols-sm-3 py-3 py-lg-0 justify-content-center justify-content-lg-start">
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stickers</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Shirt Printing</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Coroplast Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Brochures</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Hat Embroidery</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Vinyl Banners</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Car Magnets</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Custom Pens</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Snow Markers</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stickers</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Shirt Printing</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Coroplast Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Brochures</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Hat Embroidery</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Vinyl Banners</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Car Magnets</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Custom Pens</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Snow Markers</a>
                             </div>
                             <a href="" class="btn-link text-dark btn-animation-arrow mt-3 d-block text-xs">View More Products <span class="icon-arrow-right-1 ms-2 btn-animation-arrow-right d-inline-block"></span></a>
                         </div>
@@ -364,15 +364,15 @@
                             <h4 class="text-xll mb-0">Graphic Designers</h4>
                             <p class="mb-2">Expanding Your Profit Margins</p>
                             <div class="row row-cols-2 row-cols-sm-3 py-3 py-lg-0 justify-content-center justify-content-lg-start">
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Business Cards</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stickers</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Large Format</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stationary</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Marketing Materials</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Promotional</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Apparel</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Packaging</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Business Cards</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stickers</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Large Format</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Stationary</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Marketing Materials</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Promotional</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Apparel</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Packaging</a>
                             </div>
                             <a href="" class="btn-link text-dark btn-animation-arrow mt-3 d-block text-xs">View More Products <span class="icon-arrow-right-1 ms-2 btn-animation-arrow-right d-inline-block"></span></a>
                         </div>
@@ -387,15 +387,15 @@
                             <h4 class="text-xll mb-0">Government</h4>
                             <p class="mb-2">Simplifying Your Print Management</p>
                             <div class="row row-cols-2 row-cols-sm-3 py-3 py-lg-0 justify-content-center justify-content-lg-start">
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Letterheads</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Posters</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Document Printing</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Envelopes</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Covid-19 Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">NCR Forms</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Labels</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Presentation Folders</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Digital Sheets</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Letterheads</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Posters</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Document Printing</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Envelopes</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Covid-19 Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">NCR Forms</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Labels</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Presentation Folders</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Digital Sheets</a>
                             </div>
                             <a href="" class="btn-link text-dark btn-animation-arrow mt-3 d-block text-xs">View More Products <span class="icon-arrow-right-1 ms-2 btn-animation-arrow-right d-inline-block"></span></a>
                         </div>
@@ -410,15 +410,15 @@
                             <h4 class="text-xll mb-0">Franchise</h4>
                             <p class="mb-2">Enhancing Your Brand Recognition</p>
                             <div class="row row-cols-2 row-cols-sm-3 py-3 py-lg-0 justify-content-center justify-content-lg-start">
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Sealable Pouches</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Menus</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Styrene Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Paper Bags</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Tent Cards</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Window Graphics</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Gift Certificates</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">A-Frame Signs</a>
-                                <a href="/printing" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Wall Decals</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Sealable Pouches</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Menus</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Styrene Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Paper Bags</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Tent Cards</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Window Graphics</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Gift Certificates</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">A-Frame Signs</a>
+                                <a href="/my/PrintPenguin/view/form/printing.html" class="btn-link fw-normal mb-3 mb-lg-2 text-xs">Wall Decals</a>
                             </div>
                             <a href="" class="btn-link text-dark btn-animation-arrow mt-3 d-block text-xs">View More Products <span class="icon-arrow-right-1 ms-2 btn-animation-arrow-right d-inline-block"></span></a>
                         </div>
@@ -480,10 +480,10 @@
                         <button class="collapse-button collapsed position-relative fw-semibold text-grey d-block d-lg-none border-0 bg-trasparent w-100 text-start px-0"
                         data-bs-toggle="collapse" data-bs-target="#collapseHelp" aria-expanded="false" aria-controls="collapseHelp">Solutions</button>
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseHelp">
-                            <a href="/printing" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/printing.html" class="footer-menu-link">
                                 Printing
                             </a>
-                            <a href="/professional-print-design-service" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/form/design.html" class="footer-menu-link">
                                 Graphic Design
                             </a>
                             <a href="/pro-services" class="footer-menu-link">

@@ -56,7 +56,7 @@ function createBasketProductCart(){
 	
 	/* CART HEADER PRODUCT IMAGE */
 	let cartProductImg = createNewElement('div', 'cart-item-header-img me-4');
-	cartProductImg.style.backgroundImage = `url('../../${urlImg}')`;
+	cartProductImg.style.backgroundImage = `url('../..${urlImg}')`;
 	cartItemHeader.append(cartProductImg);
 	
 	let cartItemHeaderDiv = createNewElement('div',);

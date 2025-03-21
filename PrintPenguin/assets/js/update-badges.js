@@ -62,10 +62,10 @@ function updateBadges(){
                 removeBellIcon(supportMessages)
             
                 if (newMessagesCount > 1){
-                    supportMessages.style.backgroundImage = "url('../../assets/img/icons/notification/+.svg')";
+                    supportMessages.style.backgroundImage = "url('/my/PrintPenguin/assets/img/icons/notification/+.svg')";
                     
                 } else {
-                    supportMessages.style.backgroundImage = `url('../../assets/img/icons/notification/${newMessagesCount}.svg')`;
+                    supportMessages.style.backgroundImage = `url('/my/PrintPenguin/assets/img/icons/notification/${newMessagesCount}.svg')`;
                 }
 
             }, 2300);
@@ -93,10 +93,10 @@ function updateBadges(){
                 removeBellIcon(cartProducts)
 
                 if (cartProductsCount > 9){
-                    cartProducts.style.backgroundImage = "url('../../assets/img/icons/notification/+.svg')";
+                    cartProducts.style.backgroundImage = "url('/my/PrintPenguin/assets/img/icons/notification/+.svg')";
         
                 } else {
-                    cartProducts.style.backgroundImage = `url('../../assets/img/icons/notification/${cartProductsCount}.svg')`;
+                    cartProducts.style.backgroundImage = `url('/my/PrintPenguin/assets/img/icons/notification/${cartProductsCount}.svg')`;
 
                 }
             }, 2300);

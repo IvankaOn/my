@@ -93,10 +93,10 @@ function updateBadges(){
                 removeBellIcon(cartProducts)
 
                 if (cartProductsCount > 9){
-                    cartProducts.style.backgroundImage = "url('/assets/img/icons/notification/+.svg')";
+                    cartProducts.style.backgroundImage = "url('../../assets/img/icons/notification/+.svg')";
         
                 } else {
-                    cartProducts.style.backgroundImage = `url('/assets/img/icons/notification/${cartProductsCount}.svg')`;
+                    cartProducts.style.backgroundImage = `url('../../assets/img/icons/notification/${cartProductsCount}.svg')`;
 
                 }
             }, 2300);

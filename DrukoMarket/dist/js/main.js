@@ -553,7 +553,7 @@ let tomSelectSettings = {
 
 			if(img){
 				if(img == 'images/dropdown/map-dot.svg'){ /* @todo change this to be full url with / */
-					option = option + '<img class="me-2 icon-flyer" src="images/dropdown/map-marker.svg" alt="Icon Flyer">'; /* @todo change this to be full url with / */
+					option = option + '<img class="me-2 icon-flyer" src="dist/images/dropdown/map-marker.svg" alt="Icon Flyer">'; /* @todo change this to be full url with / */
 				}
 				else {
 					option = option + '<img class="me-2 icon-flyer" src="'+img+'" alt="Icon Flyer">';

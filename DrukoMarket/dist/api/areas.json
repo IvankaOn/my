@@ -10,8 +10,8 @@
         "houses": "1478",
         "cost": "100zł",
         "color": "Blue",
-        "image": "/images\/shared-maps\/ursus.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/ursus.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -28,8 +28,8 @@
         "code": "2",
         "houses": "1978",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/bemowo.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/bemowo.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -46,8 +46,8 @@
         "code": "3",
         "houses": "1888",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/ochota.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/ochota.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -64,8 +64,8 @@
         "code": "4",
         "houses": "1999",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/wlochy.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/wlochy.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -82,8 +82,8 @@
         "code": "5",
         "houses": "2001",
         "color": "Blue",
-        "image": "/images\/shared-maps\/wola.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/wola.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -100,8 +100,8 @@
         "code": "6",
         "houses": "2002",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/zoliborz.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/zoliborz.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -118,8 +118,8 @@
         "code": "7",
         "houses": "2003",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/bielany.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/bielany.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -136,8 +136,8 @@
         "code": "8",
         "houses": "2004",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/ursynow.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/ursynow.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -154,8 +154,8 @@
         "code": "9",
         "houses": "2005",
         "color": "Blue",
-        "image": "/images\/shared-maps\/mokotow.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/mokotow.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -172,8 +172,8 @@
         "code": "10",
         "houses": "2006",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/wilanow.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/wilanow.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -190,8 +190,8 @@
         "code": "11",
         "houses": "2007",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/srodmiescie.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/srodmiescie.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -208,8 +208,8 @@
         "code": "12",
         "houses": "2009",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/wawer.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/wawer.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -226,8 +226,8 @@
         "code": "13",
         "houses": "876",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/praga_poludnie.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/praga_poludnie.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -244,8 +244,8 @@
         "code": "14",
         "houses": "476",
         "color": "DodgerBlue",
-        "image": "/images\/shared-maps\/praga_polnoc.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/praga_polnoc.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -262,8 +262,8 @@
         "code": "15",
         "houses": "1934",
         "color": "Blue",
-        "image": "/images\/shared-maps\/bialoleka.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/bialoleka.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -280,8 +280,8 @@
         "code": "16",
         "houses": "576",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/targowek.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/targowek.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -298,8 +298,8 @@
         "code": "17",
         "houses": "1976",
         "color": "Blue",
-        "image": "/images\/shared-maps\/rembertow.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/rembertow.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",
@@ -316,8 +316,8 @@
         "code": "18",
         "houses": "476",
         "color": "MediumPurple",
-        "image": "/images\/shared-maps\/wesola.jpg",
-        "icon": "/images\/dropdown\/map-dot.svg"
+        "image": "dist/images\/shared-maps\/wesola.jpg",
+        "icon": "dist/images\/dropdown\/map-dot.svg"
       },
       "geometry": {
         "type": "Polygon",

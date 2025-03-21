@@ -10,7 +10,7 @@
             "print_type": "flyer",
             "print_size": "small",
             "print_side": "single",
-            "icon": "/images\/dropdown\/flyer-single.svg",
+            "icon": "dist/images\/dropdown\/flyer-single.svg",
             "prices": {
                 "500": "70.00",
                 "1000": "100.00",
@@ -30,7 +30,7 @@
             "print_type": "flyer",
             "print_size": "small",
             "print_side": "double",
-            "icon": "/images\/dropdown\/flyer-double.svg",
+            "icon": "dist/images\/dropdown\/flyer-double.svg",
             "prices": {
                 "500": "170.00",
                 "1000": "200.00",
@@ -50,7 +50,7 @@
             "print_type": "flyer",
             "print_size": "large",
             "print_side": "single",
-            "icon": "/images\/dropdown\/flyer-single.svg",
+            "icon": "dist/images\/dropdown\/flyer-single.svg",
             "prices": {
                 "500": "135.00",
                 "1000": "175.00",
@@ -70,7 +70,7 @@
             "print_type": "flyer",
             "print_size": "large",
             "print_side": "double",
-            "icon": "/images\/dropdown\/flyer-double.svg",
+            "icon": "dist/images\/dropdown\/flyer-double.svg",
             "prices": {
                 "500": "235.00",
                 "1000": "275.00",
@@ -90,7 +90,7 @@
             "print_type": "doorhanger",
             "print_size": "small",
             "print_side": "single",
-            "icon": "/images\/dropdown\/doorhanger-single.svg",
+            "icon": "dist/images\/dropdown\/doorhanger-single.svg",
             "prices": {
                 "100": "55.00",
                 "250": "70.00",
@@ -110,7 +110,7 @@
             "print_type": "doorhanger",
             "print_size": "small",
             "print_side": "double",
-            "icon": "/images\/dropdown\/doorhanger-double.svg",
+            "icon": "dist/images\/dropdown\/doorhanger-double.svg",
             "prices": {
                 "100": "155.00",
                 "250": "170.00",
@@ -130,7 +130,7 @@
             "print_type": "doorhanger",
             "print_size": "large",
             "print_side": "single",
-            "icon": "/images\/dropdown\/doorhanger-single.svg",
+            "icon": "dist/images\/dropdown\/doorhanger-single.svg",
             "prices": {
                 "100": "65.00",
                 "250": "85.00",
@@ -150,7 +150,7 @@
             "print_type": "doorhanger",
             "print_size": "large",
             "print_side": "double",
-            "icon": "/images\/dropdown\/doorhanger-double.svg",
+            "icon": "dist/images\/dropdown\/doorhanger-double.svg",
             "prices": {
                 "100": "155.00",
                 "250": "170.00",
@@ -170,7 +170,7 @@
             "print_type": "business_card",
             "print_size": "small",
             "print_side": "single",
-            "icon": "/images\/dropdown\/card-single.svg",
+            "icon": "dist/images\/dropdown\/card-single.svg",
             "prices": {
                 "100": "155.00",
                 "250": "170.00",
@@ -190,7 +190,7 @@
             "print_type": "business_card",
             "print_size": "small",
             "print_side": "double",
-            "icon": "/images\/dropdown\/card-double.svg",
+            "icon": "dist/images\/dropdown\/card-double.svg",
             "prices": {
                 "100": "255.00",
                 "250": "270.00",
@@ -210,7 +210,7 @@
             "print_type": "postcard",
             "print_size": "large",
             "print_side": "single",
-            "icon": "/images\/dropdown\/card-single.svg",
+            "icon": "dist/images\/dropdown\/card-single.svg",
             "prices": {
                 "100": "155.00",
                 "250": "170.00",
@@ -230,7 +230,7 @@
             "print_type": "postcard",
             "print_size": "large",
             "print_side": "double",
-            "icon": "/images\/dropdown\/card-double.svg",
+            "icon": "dist/images\/dropdown\/card-double.svg",
             "prices": {
                 "100": "255.00",
                 "250": "270.00",
@@ -250,7 +250,7 @@
             "print_type": "postcard",
             "print_size": "small",
             "print_side": "single",
-            "icon": "/images\/dropdown\/card-single.svg",
+            "icon": "dist/images\/dropdown\/card-single.svg",
             "prices": {
                 "100": "155.00",
                 "250": "170.00",
@@ -270,7 +270,7 @@
             "print_type": "postcard",
             "print_size": "small",
             "print_side": "double",
-            "icon": "/images\/dropdown\/card-double.svg",
+            "icon": "dist/images\/dropdown\/card-double.svg",
             "prices": {
                 "100": "255.00",
                 "250": "270.00",

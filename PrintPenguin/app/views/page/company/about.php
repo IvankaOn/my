@@ -13,13 +13,13 @@
 	<meta property="og:image:height" content="627">
 	<meta property="og:image:alt" content="Print Penguin Logo">
 	<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore">
-	<meta property="og:url" content="https://printpenguin.faster.ws/about">
+	<meta property="og:url" content="https://printpenguin.faster.ws/my/PrintPenguin/view/company/about.html">
 	<meta property="og:type" content="website">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="affordable-printing-products">
     <meta property="twitter:domain" content="printpenguin.faster.ws">
-    <meta property="twitter:url" content="https://printpenguin.faster.ws/about">
+    <meta property="twitter:url" content="https://printpenguin.faster.ws/my/PrintPenguin/view/company/about.html">
     <meta name="twitter:title" content="Print Penguin">
     <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore">
     <meta name="twitter:image" content="https://printpenguin.faster.ws/assets/img/og/affordable-printing-products.png">
@@ -205,17 +205,17 @@
         <section class="section-about-us-sub-header">
             <div class="row gy-4">
                 <div class="col-12 col-md-6 order-md-2">
-                    <div class="js-image-src section-about-us-sub-header-img d-flex justify-content-center justify-content-lg-end align-items-end" data-image-src="/assets/img/about-us/successful-man-and-woman.jpg">
+                    <div class="js-image-src section-about-us-sub-header-img d-flex justify-content-center justify-content-lg-end align-items-end" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/successful-man-and-woman.jpg">
                         <h3 class="section-about-us-sub-header-img-title mb-0">Over 1000 happy customers</h3>
                     </div>
                 </div>
                 <div class="col-12 col-lg-3 order-md-3 order-lg-1 offset-lg-3 d-lg-flex align-items-end">
-                    <div class="js-image-src section-about-us-sub-header-img section-about-us-btn-play" data-image-src="/assets/img/about-us/printing.jpg">
+                    <div class="js-image-src section-about-us-sub-header-img section-about-us-btn-play" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/printing.jpg">
                         <a href="https://www.youtube.com/embed/rWGDoUuS2lw?modestbranding=1&rel=0&showinfo=0&html5=1&autoplay=1" class="btn-play glightbox-video"><span></span><span></span></a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-12 order-md-1 order-lg-3">
-                    <div class="js-image-src section-about-us-sub-header-img section-about-us-man d-flex justify-content-center justify-content-lg-end align-items-end" data-image-src="/assets/img/about-us/man-at-a-computer.jpg">
+                    <div class="js-image-src section-about-us-sub-header-img section-about-us-man d-flex justify-content-center justify-content-lg-end align-items-end" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/man-at-a-computer.jpg">
                         <h3 class="section-about-us-sub-header-img-title mb-0">Over 1000 happy customers</h3>
                     </div>
                 </div>
@@ -232,17 +232,17 @@
             <h3 class="text-black text-center text-lg-start">How We Can Help You</h3>
             <div class="row justify-content-center justify-content-lg-start">
                 <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-4 text-center text-lg-start">
-                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/about-us/flyers-01.png"></div>
+                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/flyers-01.png"></div>
                     <h4 class="mb-2 text-xll text-black fw-semibold">Top Quality</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-5 mb-xl-4 text-center text-lg-start">
-                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/about-us/man-with-computer.png"></div>
+                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/man-with-computer.png"></div>
                     <h4 class="mb-2 text-xll text-black fw-semibold">Top Quality</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-center text-lg-start">
-                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/about-us/flyers-02.png"></div>
+                    <div class="js-image-src about-us-help-you-img" data-image-src="/assets/img/my/PrintPenguin/view/company/about.html-us/flyers-02.png"></div>
                     <h4 class="mb-2 text-xll text-black fw-semibold">Top Quality</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
@@ -349,7 +349,7 @@
                             <button class="collapse-button collapsed position-relative fw-semibold text-grey d-inline-block d-lg-none border-0 bg-trasparent w-100 text-start px-0" 
                             data-bs-toggle="collapse" data-bs-target="#collapseCompany" aria-expanded="false" aria-controls="collapseCompany">Company</button>
                             <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseCompany">
-                                <a href="/about" class="footer-menu-link">
+                                <a href="/my/PrintPenguin/view/company/about.html" class="footer-menu-link">
                                     About Us
                                 </a>
                                 <a href="/contact" class="footer-menu-link">

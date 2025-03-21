@@ -327,7 +327,7 @@
                         <button class="collapse-button collapsed position-relative fw-semibold text-grey d-inline-block d-lg-none border-0 bg-trasparent w-100 text-start px-0" 
                         data-bs-toggle="collapse" data-bs-target="#collapseCompany" aria-expanded="false" aria-controls="collapseCompany">Company</button>
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseCompany">
-                            <a href="/about" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/about.html" class="footer-menu-link">
                                 About Us
                             </a>
                             <a href="/contact" class="footer-menu-link">

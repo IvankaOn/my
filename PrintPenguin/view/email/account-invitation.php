@@ -78,8 +78,8 @@
             <div class="col-6 d-none d-lg-block bg-primary rounded-6">
                 <div class="p-40 text-white h-100 d-flex flex-column justify-content-between">
                     <div class="d-flex align-items-end justify-content-between">
-                        <a href="/" class="header-logo text-decoration-none d-block"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
-                        <a href="/" class="text-white text-decoration-none text-xs fw-semibold">Go to main page</a>
+                        <a href="/my/PrintPenguin/" class="header-logo text-decoration-none d-block"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
+                        <a href="/my/PrintPenguin/" class="text-white text-decoration-none text-xs fw-semibold">Go to main page</a>
                     </div>
                     <div class="my-5">
                         <h2 class="mb-3 text-xll">You were invited to have access {Company Name}</h2>

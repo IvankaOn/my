@@ -106,7 +106,7 @@
             <div id="js-navbar">
                 <div class="sticky-nav">
                     <nav class="navbar navbar-light flex-lg-nowrap py-4 w-100">
-                        <a href="/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
+                        <a href="/my/PrintPenguin/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
                           <div class="d-flex order-lg-3">
                              <a data-bs-toggle="offcanvas" href="#offcanvasLanguage" class="selected-currency me-2 pe-md-1 position-relative">
                                 <span class="language-settings-img d-block" style="background-image: url('/assets/img/locale/currency/en.svg')">
@@ -442,7 +442,7 @@
                 <div class="row justify-content-center justify-content-lg-start mb-4 mb-lg-0">
                     <div class="col-11 col-sm-8 col-lg-10 text-center text-lg-start">
                         <div class="mb-5">
-                            <a href="/" class="footer-logo d-block text-white text-decoration-none mb-2"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
+                            <a href="/my/PrintPenguin/" class="footer-logo d-block text-white text-decoration-none mb-2"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         <address class="text-center text-lg-start">

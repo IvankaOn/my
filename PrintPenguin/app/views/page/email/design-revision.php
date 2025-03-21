@@ -78,7 +78,7 @@
     <div class="container-fluid px-lg-5">
         <div class="row pt-4 pt-lg-3 pb-lg-3 align-items-center position-relative justify-content-between">
             <div class="col-6 col-lg-2 mb-4 mb-lg-0">
-                <a href="/" class="text-white w-100 text-decoration-none logo-max-w d-block ps-sm-4 ps-md-5 ps-lg-0"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
+                <a href="/my/PrintPenguin/" class="text-white w-100 text-decoration-none logo-max-w d-block ps-sm-4 ps-md-5 ps-lg-0"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
             </div>
             <div class="col-6 col-lg-2 order-lg-3 mb-4 mb-lg-0">
                 <div class="d-flex justify-content-end pe-sm-4 pe-md-5 pe-lg-0">

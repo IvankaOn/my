@@ -85,7 +85,7 @@ if (isset($error_code)) {
                     <h1 class="text-dark mb-1 ms-neg-5">Oops!</h1>
                     <h2 class="text-sky-azure text-xl fw-normal">Where are we?</h2>
                     <p class="w-md-75 pe-md-5">The page you are looking for was moved, removed, renamed or might never existed.</p>
-                    <a href="/" class="btn btn-sky-azure text-white">Go Home</a>
+                    <a href="/my/PrintPenguin/" class="btn btn-sky-azure text-white">Go Home</a>
                 </div>
             </div>
         </div>

@@ -79,7 +79,7 @@
     <body class="overflow-hidden">
         <div class="container-fluid container-chat-content px-0">
             <div class="chat-header-blue text-center">
-                <a href="/" class="text-white header-logo text-decoration-none d-block m-auto py-4"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
+                <a href="/my/PrintPenguin/" class="text-white header-logo text-decoration-none d-block m-auto py-4"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
             </div>
             <div id="helpCenterChatPage">
                 <div class="chat-body scrollbar-dark">

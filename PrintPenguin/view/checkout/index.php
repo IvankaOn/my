@@ -109,7 +109,7 @@
             <div id="js-navbar">
                 <div class="sticky-nav">
                     <nav class="navbar navbar-light flex-lg-nowrap py-4 w-100">
-                        <a href="/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
+                        <a href="/my/PrintPenguin/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
                         <div class="d-flex order-lg-3">
                              <a data-bs-toggle="offcanvas" href="#offcanvasLanguage" class="selected-currency me-2 pe-md-1 position-relative">
                                 <span class="language-settings-img d-block" style="background-image: url('../../assets/img/locale/currency/en.svg')">
@@ -366,7 +366,7 @@
     <div class="container-fluid border-bottom border-easy-cream py-50">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <a href="/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
+                <a href="/my/PrintPenguin/" class="text-white header-logo text-decoration-none"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
                 <a data-bs-toggle="offcanvas" href="#offcanvasHelpCenter" class="text-xs btn-link d-flex align-items-center">
                     <span class="fi-rr-life-ring text-primary me-2 lh-1"></span>
                     <span class="text-capitalize">

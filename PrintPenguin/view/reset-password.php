@@ -17,7 +17,7 @@
             <div class="d-flex flex-column justify-content-center h-100">
                 <div class="row justify-content-center w-100 g-0">
                     <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xxl-5">
-                        <a href="/" class="logo-w-20 text-decoration-none d-block m-auto mb-4"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
+                        <a href="/my/PrintPenguin/" class="logo-w-20 text-decoration-none d-block m-auto mb-4"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
                         <form id="newPasswordForm" class="text-white needs-validation" novalidate>
                             <div class="text-center mb-4">
                                 <h2>Reset Password</h2>

@@ -4,7 +4,7 @@
             <div class="col-6 d-none d-lg-block bg-primary rounded-6">
                 <div class="p-40 text-white h-100 d-flex flex-column justify-content-between">
                     <div class="d-flex align-items-end justify-content-between">
-                        <a href="/" class="header-logo text-decoration-none d-block"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
+                        <a href="/my/PrintPenguin/" class="header-logo text-decoration-none d-block"><img src="/assets/img/print-penguin-logo-white.svg" alt="Logo"></a>
                     </div>
                     <div class="my-5">
                     <h2 class="mb-3 text-xxll">Switch Account</h2>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-               <a href="/" class="header-logo text-decoration-none d-block d-lg-none m-auto"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
+               <a href="/my/PrintPenguin/" class="header-logo text-decoration-none d-block d-lg-none m-auto"><img src="/assets/img/print-penguin-logo.svg" alt="Logo"></a>
                <div class="p-4 p-md-5 my-xl-5">
                     <form id="formSignUp">
                         <div class="text-center d-lg-none">
@@ -39,7 +39,7 @@
                             <button type="button" class="btn btn-primary w-100">Switch</button>
                         </form>
                     </form>
-                    <a href="/" class="btn btn-link d-block d-lg-none text-decoration-none text-drab fw-normal my-3 m-auto">Back to main page</a>
+                    <a href="/my/PrintPenguin/" class="btn btn-link d-block d-lg-none text-decoration-none text-drab fw-normal my-3 m-auto">Back to main page</a>
                </div>
             </div>
         </div>

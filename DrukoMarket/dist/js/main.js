@@ -356,7 +356,7 @@ function createCard(title, desc, iconName, dataName, dataValue, active, cardSize
 	cardBody.append(cardBodyIcon);
 
 	let img = document.createElement('img');
-	img.src = `images/icons/${iconName}`;
+	img.src = `dist/images/icons/${iconName}`;
 	cardBodyIcon.append(img);
 
 	/* ************** CREATE CARD BODY TEXT ************** */
@@ -552,7 +552,7 @@ let tomSelectSettings = {
 			let option = '<div class="d-flex align-items-center text-start fs-5">';
 
 			if(img){
-				if(img == 'images/dropdown/map-dot.svg'){ /* @todo change this to be full url with / */
+				if(img == 'dist/images/dropdown/map-dot.svg'){ /* @todo change this to be full url with / */
 					option = option + '<img class="me-2 icon-flyer" src="dist/images/dropdown/map-marker.svg" alt="Icon Flyer">'; /* @todo change this to be full url with / */
 				}
 				else {

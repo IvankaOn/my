@@ -757,7 +757,7 @@
 
                             </a>
 
-                            <a href="/privacy-policy" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/privacy.html" class="footer-menu-link">
 
                                 Privacy Policy
 

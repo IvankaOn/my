@@ -294,7 +294,7 @@
 					
 					modalHTML += `
 						</div>
-						<p class="text-xxs">${response.footer_text} <a href="/privacy-policy" target="_blank" class="fw-semibold text-black text-decoration-none border-bootom-dotted">${response.privacy_policy}</a>.</p>
+						<p class="text-xxs">${response.footer_text} <a href="/my/PrintPenguin/view/company/privacy.html" target="_blank" class="fw-semibold text-black text-decoration-none border-bootom-dotted">${response.privacy_policy}</a>.</p>
 					</div>
 					<div class="modal-footer border-0 box-shadow-footer justify-content-center py-4">
 						<button type="button" class="btn btn-primary px-40" data-bs-dismiss="modal" aria-label="Close" onclick="Cookie.acceptNotice()">${response.button_ok}</button>

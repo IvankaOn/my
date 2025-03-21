@@ -1896,13 +1896,13 @@
 
                             </a>
 
-                            <a href="/privacy-policy" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/privacy.html" class="footer-menu-link">
 
                                 Privacy Policy
 
                             </a>
 
-                            <a href="/terms-and-conditions" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/company/terms.html" class="footer-menu-link">
 
                                 Terms Of Use
 

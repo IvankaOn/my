@@ -342,7 +342,7 @@
                         <button class="collapse-button collapsed position-relative fw-semibold text-grey d-block d-lg-none border-0 bg-trasparent w-100 text-start px-0"
                         data-bs-toggle="collapse" data-bs-target="#collapseHelp" aria-expanded="false" aria-controls="collapseHelp">Solutions</button>
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseHelp">
-                            <a href="/my/PrintPenguin/view/form/printing.html" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/catalog/category.html" class="footer-menu-link">
                                 Printing
                             </a>
                             <a href="/my/PrintPenguin/view/form/design.html" class="footer-menu-link">

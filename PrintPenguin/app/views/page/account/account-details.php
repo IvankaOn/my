@@ -697,7 +697,7 @@
 
                         <div class="collapse show-lg mt-3 footer-mobile-collapse" id="collapseHelp">
 
-                            <a href="/my/PrintPenguin/view/form/printing.html" class="footer-menu-link">
+                            <a href="/my/PrintPenguin/view/catalog/category.html" class="footer-menu-link">
 
                                 Printing
 

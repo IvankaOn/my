@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrukoMarket</title>
+    <link rel="stylesheet" type="text/css" href="iconsax/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <link rel="stylesheet" href="tom-select/tom-select.css">
+    <link rel="stylesheet" href="sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg w-100 py-4">
+            <div class="navbar-container">
+                <div class="d-flex justify-content-between w-100 w-sm-auto justify-sm-content-start">
+                    <a href="index.html" class="navbar-brand order-1 order-md-2 header-logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler border-0 order-2 order-md-1 p-0 me-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-lable="Toogle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div id="navbarNavAltMarkup" class="collapse navbar-collapse order-3 order-lg-2 justify-content-center">
+                    <div class="navbar-nav justify-content-between text-center text-lg-start mb-5 mt-2 mx-auto m-lg-0 menu-hover-effect">
+                        <!-- MOBILE MENU -->
+                        <a href="#our-products" class="nav-link mx-2 d-lg-none">Usługi</a>
+                        <a href="javascript:void(0);" class="js-how-to-order nav-link mx-2 d-lg-none">Jak zamawiać</a>
+                        <a href="#section-printing" class="nav-link mx-2 d-lg-none">Cennik</a>
+                        <a href="#sectionGetInTouch" class="nav-link mx-2 d-lg-none">Kontakt</a>
+                        <!-- XL MENU -->
+                         <a href="#our-products" class="nav-link mx-2 d-none d-lg-inline-block">Usługi</a>
+                         <a href="javascript:void(0);" class="js-how-to-order nav-link mx-2 d-none d-lg-inline-block">Jak zamawiać</a>
+                         <a href="#section-printing" class="nav-link mx-2 d-none d-lg-inline-block">Cennik</a>
+                         <a href="#sectionGetInTouch" class="nav-link mx-2 d-none d-lg-inline-block">Kontakt</a>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex align-items-center order-2 order-lg-3">
+                    <a href="tel:+48780490888" class="nav-link lh-sm me-4 d-inline-block text-sm hover-yellow btn btn-link btn-link-yellow d-inline-flex align-items-center phone-icon-animate">
+                        <i class="icon-call-calling me-2 fw-semibold"></i>
+                        <span class="d-none d-xl-inline-block d-xxl-none align-top">Zadzwoń</span>
+                        <span class="d-inline-block d-lg-none d-xxl-inline-block align-top fw-normal">+48(780)490888</span>
+                    </a>
+                    <button type="button" class="btn btn-yellow btn-hover" onclick="document.getElementById('getQuoteForm').scrollIntoView();">
+                        Online
+                    </button>
+                </div>
+                <div class="navbar-footer-btn order-3 m-auto text-center mb-4">
+                    <a href="tel:+48780490888" class="nav-link text-sm lh-sm d-block mb-5">
+                        <i class="icon-call-calling me-2 fw-semibold"></i>
+                        <span class="d-inline-block align-top fw-normal">+48(780)490888</span>
+                    </a>
+                    <button type="button" class="btn btn-primary" onclick="document.getElementById('getQuoteForm').scrollIntoView();" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-expanded="true">
+                        Drukarnia Online
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9 col-xxl-7 text-center text-md-start header-desc">
+                    <h1 class="fw-bold pb-3">Prowadź swój <span class="text-yellow fst-italic">biznes </span> na swój sposób<span class="text-yellow">.</span></h1>
+                    <p class="my-4 lh-sm">Wyróżnij się na tle konkurencji dzięki naszym ulotkom-zawieszkom reklamowym na drzwi. Zainwestuj w reklamę, która działa – na swój sposób!</p>
+                    <div class="pt-3">
+                        <button type="button" class="btn btn-yellow btn-hover mb-2 mb-sm-0 me-sm-3" onclick="document.getElementById('getQuoteForm').scrollIntoView();">Zamowienia Online</button>
+                        <a href="tel:+48780490888" class="btn btn-link btn-link-yellow text-yellow mb-2 mb-sm-0 d-inline-flex align-items-center phone-icon-animate"><i class="icon-call-calling me-2 fw-semibold"></i>Skontaktuj się</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="overflow-hidden">
+        <section id="new-clients">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-12 col-lg-8 pb-3">
+                        <h2 class="fw-bold text-black pb-3" 
+                            data-aos="fade-up" 
+                            data-aos-delay="50">
+                            Dotrzyj do nowych klientów
+                        </h2>
+                        <p class="lh-sm my-4" 
+                            data-aos="fade-up" 
+                            data-aos-delay="100" 
+                            data-aos-offset="50">
+                            Mamy narzędzia, które umożliwią łatwe wprowadzenie Twojej firmy na drogę do sukcesu! Specjalizujemy się w drukowaniu ulotek na drzwi, wizytówek i pocztówek, które skutecznie przyciągają uwagę klientów. Twoje pomysły, nasza jakość – razem tworzymy doskonały druk.
+                        </p>
+                        <div class="text-center pt-3">
+                            <button type="button" class="btn btn-primary mb-2 mb-sm-0 me-md-3 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50">Zamów teraz<span class="js-element-animation"></span></button>
+                            <a href="tel:+48780490888" class="btn btn-link btn-link-primary d-inline-flex mb-2 mb-sm-0 align-items-center link-arrow-icon-right" data-aos="fade-left" data-aos-delay="200" data-aos-offset="50">
+                                Skontaktuj się
+                                <i class="icon-arrow-circle-right ms-2 fw-semibold"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="our-products" class="row g-0 row-backdown">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                       <div class="position-relative d-flex justify-content-center align-items-center pos-reletive-center">
+                         <img class="position-absolute" src="images/door-hangers/door-hangers-shadows.png" alt="Shadows" style="max-width: 570px; bottom: -8%;" data-aos="zoom-in" data-aos-offset="0">
+                         <div class="position-relative" style="left: 9%;">
+                             <img class="position-absolute" src="images/door-hangers/popup-2.png" alt="Popup" style="max-width: 145px; left: -20%; top: -5%;" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50">
+                             <img class="position-relative z-index-min-1" src="images/door-hangers/door-hanger-snow-removal.png" alt="Flyer" style="max-width: 270px;" data-aos="flip-right" data-aos-offset="50">
+                         </div>
+                         <div class="position-relative">
+                             <img src="images/door-hangers/door-hanger-lawn-care.png" alt="Flyer" style="max-width: 270px;" data-aos="flip-right" data-aos-delay="150" data-aos-offset="50">
+                             <img class="position-absolute" src="images/door-hangers/popup-1.png" alt="Popup" style="max-width: 182px; right: -25%; bottom: 25%;" data-aos-delay="100" data-aos="fade-left">
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start order-lg-1 pe-lg-5">
+                        <h2 class="fw-bold text-black pb-md-3" data-aos="fade-right" data-aos-offset="50">Marketing wieszaków na drzwi</h2>
+                        <p class="lh-sm my-4" data-aos="fade-right" data-aos-delay="100">Skuteczny sposób dotarcia do klientów prosto w ich domach. Oferujemy różnorodne formaty, kolory i wykończenia, które idealnie dopasujesz do swojej marki.</p>
+                        <ul class="list-unstyled my-4 py-2 w-sm-75 m-auto" id="doorHangerList">
+                            <li class="d-flex align-items-center mb-2 text-start">
+                                <i class="icon-tick-circle text-primary text-lg me-2 me-sm-3" data-aos="zoom-in" data-aos-delay="500" data-aos-offset="50" data-aos-anchor="#doorHangerList"></i>
+                               <span data-aos="fade-left" data-aos-delay="0" data-aos-anchor="#doorHangerList">Idealne rozwiązanie jako forma reklamy każdej firmy</span> 
+                            </li>
+                            <li class="d-flex align-items-center mb-2 text-start">
+                                <i class="icon-tick-circle text-primary text-lg me-2 me-sm-3" data-aos="zoom-in" data-aos-delay="600" data-aos-offset="50" data-aos-anchor="#doorHangerList"></i>
+                                <span data-aos="fade-left" data-aos-delay="250" data-aos-anchor="#doorHangerList">Zawsze jest gdzie je położyć</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2 text-start">
+                                <i class="icon-tick-circle text-primary text-lg me-2 me-sm-3" data-aos="zoom-in" data-aos-delay="700" data-aos-offset="50" data-aos-anchor="#doorHangerList"></i>
+                               <span data-aos="fade-left" data-aos-delay="500" data-aos-anchor="#doorHangerList">Zawsze widziane przynajmniej na sekundę</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2 text-start">
+                                <i class="icon-tick-circle text-primary text-lg me-2 me-sm-3" data-aos="zoom-in" data-aos-delay="800" data-aos-offset="50" data-aos-anchor="#doorHangerList"></i>
+                                <span data-aos="fade-left" data-aos-delay="750" data-aos-anchor="#doorHangerList">Druk na papierze kreda błysk</span>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary me-sm-2 me-xl-4 mb-2 mb-sm-0 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="400" data-aos-offset="50">Zamów teraz <span class="js-element-animation"></span></button>
+                        <a href="tel:+48780490888" class="btn btn-link btn-link-primary d-inline-flex align-items-center mb-2 mb-sm-0 px-sm-0 px-xl-4 phone-icon-animate"  data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">
+                            <i class="icon-call-calling me-2 fw-semibold"></i>+48(780)490888
+                        </a>
+                   </div>
+                </div>
+                <div class="row g-0 row-backdown">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 pe-lg-5">
+                        <div class="position-relative d-flex justify-content-center align-items-center pos-reletive-center">
+                            <div class="position-relative my-mob-9" style="left: 6%;">
+                                <img class="position-absolute z-index-plus-1" src="images/flyer-distribution/popup-1.png" alt="Popup" style="max-width: 160px; bottom: 0; left: -10%;" data-aos="zoom-in-up" data-aos-delay="300" data-aos-offset="-100">
+                                <img class="position-relative" src="images/flyer-distribution/business-card.png" alt="Flyer" style="max-width: 385px;" data-aos="flip-up" data-aos-delay="500" data-aos-offset="50">
+                            </div>
+                            <div class="position-relative" style="left: -10%;">
+                                <img class ="position-relative z-index-min-1" src="images/flyer-distribution/business-card-2.png" alt="Flyer" style="max-width: 385px;" data-aos="flip-down" data-aos-delay="100" data-aos-offset="50">
+                                <img class="position-absolute" src="images/flyer-distribution/popup-2.png" alt="Popup" style="max-width: 130px; right: -5%; top: -10%;" data-aos="zoom-in-down" data-aos-delay="200" data-aos-offset="50">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <h2 class="fw-bold text-black pb-md-3" data-aos="fade-left" data-aos-delay="100" data-aos-offset="50">Twoje wizytówki</h2>
+                        <p class="lh-sm my-4 py-2" data-aos="fade-left" data-aos-delay="300" data-aos-offset="50">Pierwsze wrażenie jest najważniejsze! Nasze wizytówki wyróżniają się wysoką jakością druku oraz unikalnym designem. Dzięki różnym opcjom personalizacji stworzysz wizytówkę, która zapadnie w pamięć.</p>
+                        <div class="mb-4 mb-md-0">
+                            <button type="button" class="btn btn-primary me-sm-4 mb-2 mb-sm-0 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">Zamów teraz<span class="js-element-animation"></span></button>              
+                            <a href="tel:+48780490888" class="btn btn-link btn-link-primary d-inline-flex mb-2 mb-sm-0 align-items-center link-arrow-icon-right" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50">
+                               Skontaktuj się
+                            <i class="icon-arrow-circle-right ms-2 fw-semibold"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 row-backdown">
+                    <div class="col-12 col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                        <div class="position-relative d-flex justify-content-center align-items-center pos-reletive-center">
+                            <img class="position-absolute bottom-0 z-index-plus-1" src="images/mailbox/popup-1.png" alt="Popup" style="max-width: 165px; left: 8%;" data-aos="fade-right" data-aos-delay="300" data-aos-offset="-100">
+                            <img class="position-absolute end-0 z-index-plus-1" src="images/mailbox/popup-2.png" alt="Popup" style="max-width: 180px; top: 15%" data-aos="fade-left" data-aos-delay="500" data-aos-offset="50">
+                            <img class="position-relative" src="images/mailbox/canada-post-mail-box.png" alt="Post box" style="max-width: 355px;" data-aos="zoom-in" data-aos-delay="0" data-aos-offset="50">
+                            <img class="position-absolute z-index-min-1" src="images/mailbox/paper-plane-with-line.png" alt="line" style="max-width: 860px;" data-aos="fade-up-left" data-aos-delay="800" data-aos-offset="50">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 text-center text-lg-start order-lg-1 pe-lg-5">
+                        <h2 class="fw-bold text-black pb-md-3" data-aos="fade-right" data-aos-offset="50">Pocztówki przywitalne</h2>
+                        <p class="lh-sm my-4 py-2" data-aos="fade-right" data-aos-delay="100" data-aos-offset="50">Zaskocz swoich klientów oryginalnymi pocztówkami, które będą doskonałym sposobem na podziękowanie lub powitanie. Oferujemy kreatywne projekty, które idealnie oddają charakter Twojej firmy.</p>
+                        <div class="mb-4 mb-md-0">
+                            <button type="button" class="btn btn-primary me-sm-4 mb-2 mb-sm-0 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="400" data-aos-offset="50">Zamów teraz<span class="js-element-animation"></span></button>
+                            <a href="tel:+48780490888" class="btn btn-link btn-link-primary d-inline-flex mb-2 mb-sm-0 align-items-center link-arrow-icon-right" data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">
+                                Skontaktuj się
+                            <i class="icon-arrow-circle-right ms-2 fw-semibold"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg-gradient-black">
+            <div class="container">
+                <form id="getQuoteForm" class="black-section text-white">
+                    <div id="getQuoteContent"></div>
+                    <div class="quote-start-content">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-10 col-lg-8 pe-lg-5 text-center mb-4">
+                                <h2 class="fw-bold pb-md-3" data-aos="fade-up" data-aos-offset="50">Uzyskaj wycenę</h2>
+                                <p class="lh-sm my-4 py-2" data-aos="fade-up" data-aos-delay="100" data-aos-offset="50">W DrukoMarket łączymy pasję do druku z nowoczesnymi technologiami, co pozwala nam dostarczać produkty najwyższej jakości w krótkim czasie.</p>
+                            </div>
+                            <div class="col-12 col-sm-10 col-lg-5 col-xl-5 mb-5 mb-lg-0">
+                                <div class="card-flyer card-flyer-start d-flex flex-column" data-aos="fade-up-right" data-aos-delay="400" data-aos-offset="50">
+                                        <div class="card-flyer-header d-none d-lg-block">
+                                            <img src="images/door-flyer/door-to-door-photo2.jpg" alt="Door">
+                                        </div>
+                                        <div class="card-flyer-body d-flex align-items-center flex-grow-1 flex-column">
+                                        <div class="card-flyer-body-icon"><img src="images/icons/papers.svg" alt="Icon papers"></div>
+                                            <div class="card-flyer-body-text">
+                                                <h5 class="my-2 fw-semibold text-lg">Dostawa bezpośrednia</h5>
+                                                <p class="lh-sm text-sm text-md">Dostarcz swoją reklamę bezpośrednio pod drzwi klientów.</p>
+                                                
+                                                <div class="d-none d-lg-block py-4">
+                                                    <p>
+                                                        <span class="me-2 pb-1">
+                                                            <svg width="25" height="19" viewBox="0 0 49 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M2 11L10.3235 20.5L18.6618 11L27 1.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                        </span>
+                                                        Najbardziej opłacalny
+                                                    </p>
+                                                    <p>
+                                                        <span class="me-2 pb-1">
+                                                            <svg width="25" height="19" viewBox="0 0 49 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M2 11L10.3235 20.5L18.6618 11L27 1.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                        </span>
+                                                        Bezpośrednia widoczność
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-lg-auto w-lg-100 card-flyer-start-footer">
+                                                <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center btn-primary-hover btn-animation-left" data-delivery="direct">
+                                                    <i class="d-none d-lg-block icon-arrow-left me-2 btn-animation-arrow-left"></i>
+                                                    Wybierz
+                                                </button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-10 col-lg-5 col-xl-5 mb-5 mb-lg-0">
+                                <div class="card-flyer card-flyer-start d-flex flex-column" data-aos="fade-up-left" data-aos-delay="400" data-aos-offset="50">
+                                        <div class="card-flyer-header d-none d-lg-block">
+                                            <img src="images/door-flyer/door-to-box-photo2.jpg" alt="Post box">
+                                        </div>
+                                        <div class="card-flyer-body d-flex align-items-center flex-grow-1 flex-column">
+                                            <div class="card-flyer-body-icon"><img src="images/icons/papers.svg" alt="Icon papers"></div>
+                                            <div class="card-flyer-body-text">
+                                                <h5 class="my-2 fw-semibold text-lg">Dostawa do skrzynki pocztowej</h5>
+                                                <p class="lh-sm text-sm text-md">Dostarcz swoją reklamę do skrzynki pocztowej swojego klienta za pośrednictwem Poczty Polska.</p>
+                                                <div class="d-none d-lg-block py-4">
+                                                    <p>
+                                                        <span class="me-2 pb-1">
+                                                            <svg width="25" height="19" viewBox="0 0 49 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M2 11L10.3235 20.5L18.6618 11L27 1.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                        </span>
+                                                       Krótszy czas dostawy
+                                                    </p>
+                                                    <p>
+                                                        <span class="me-2 pb-1">
+                                                            <svg width="25" height="19" viewBox="0 0 49 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M2 11L10.3235 20.5L18.6618 11L27 1.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                        </span>
+                                                        Większy obszar dystrybucji
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-lg-auto w-lg-100 card-flyer-start-footer">
+                                                <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center btn-primary-hover btn-animation-right" data-delivery="mailbox">
+                                                    Wybierz
+                                                    <i class="d-none d-lg-block icon-arrow-right-1 ms-2 btn-animation-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section id="advantages">
+            <div class="container">
+             <h2 class="fw-bold text-black mb-5 text-center text-lg-start" data-aos="fade-right" data-aos-offset="50">Zalety</h2>
+                <div class="row g-0">
+                    <div class="col-12 col-lg-6 d-flex align-items-stretch flex-column justify-content-between pe-lg-5">
+                     <div class="d-flex align-items-start mb-5">
+                         <img src="images/icons/chat-notification.svg" class="advantages-content-img" alt="Icon" data-aos="zoom-out-left" data-aos-delay="100" data-aos-offset="50">
+                         <div class="ms-sm-4 ps-3" data-aos="zoom-out-left" data-aos-delay="250">
+                             <span class="d-block fw-semibold text-black mb-2 pb-1 text-lg">Szeroka gama produktów</span>
+                             <p class="lh-sm">Ulotki, wizytówki, pocztówki w różnych formatach i opcjach druku.</p>
+                         </div>
+                     </div>
+                     <div class="d-flex align-items-start mb-5">
+                         <img src="images/icons/chat-notification.svg" class="advantages-content-img" alt="Icon" data-aos="zoom-out-left" data-aos-delay="200" data-aos-offset="50">
+                         <div class="ms-sm-4 ps-3" data-aos="zoom-out-left" data-aos-delay="350" data-aos-offset="50">
+                             <span class="d-block fw-semibold text-black mb-2 pb-1 text-lg">Elastyczność</span>
+                             <p class="lh-sm">Możliwość wyboru rozmiaru i lokalizacji druku (jednostronny/dwustronny).</p>
+                         </div>
+                     </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex align-items-stretch flex-column justify-content-between">
+                     <div class="d-flex align-items-start mb-5">
+                         <img src="images/icons/chat-notification.svg" class="advantages-content-img" alt="Icon" data-aos="zoom-out-left" data-aos-delay="300" data-aos-offset="50">
+                         <div class="ms-sm-4 ps-3" data-aos="zoom-out-left" data-aos-delay="450" data-aos-offset="50">
+                             <span class="d-block fw-semibold text-black mb-2 pb-1 text-lg">Atrakcyjne ceny</span>
+                             <p class="lh-sm">Konkurencyjność na rynku przy zachowaniu najwyższej jakości.</p>
+                         </div>
+                     </div>
+                     <div class="d-flex align-items-start mb-5">
+                         <img src="images/icons/chat-notification.svg" class="advantages-content-img" alt="Icon" data-aos="zoom-out-left" data-aos-delay="400" data-aos-offset="50">
+                         <div class="ms-sm-4 ps-3" data-aos="zoom-out-left" data-aos-delay="550" data-aos-offset="50">
+                             <span class="d-block fw-semibold text-black mb-2 pb-1 text-lg">Szybka realizacja</span>
+                             <p class="lh-sm">Drukujemy z dbałością o każdy detal, zawsze na czas</p>
+                         </div>
+                     </div>
+                    </div>
+                    <div class="col-12 text-center mt-3 mt-lg-4"> 
+                         <button type="button" class="btn btn-primary me-sm-4 mb-2 mb-sm-0 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="400" data-aos-offset="50">Zamów teraz <span class="js-element-animation" style="top: 235px; left: 240px;"></span></button>
+                         <a href="tel:+48780490888" class="btn btn-link btn-link-primary d-inline-flex mb-2 mb-sm-0 align-items-center link-arrow-icon-right" data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">
+                             Skontaktuj się
+                         <i class="icon-arrow-circle-right ms-2 fw-semibold"></i>
+                         </a>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-full p-0 container-banner-bg">
+                <div class="container-banner-form">
+                    <div class="text-white text-center text-lg-start py-6 px-4">
+                        <div class="row justify-content-center justify-content-xl-between align-items-center">
+                            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center text-xl-start">
+                                <h2 class="fw-semibold mt-4" data-aos="fade-right" data-aos-offset="50">Otrzymuj <span class="text-yellow fst-italic">powiadomienia</span></h2>
+                                <p class="fw-semibold" data-aos="fade-right" data-aos-delay="100" data-aos-offset="50">Kiedy dostarczamy w Twoich obszarach docelowych!</p>
+                                <p class="lh-sm text-light-white d-xl-none m-auto" style="max-width: 495px;" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50">Wyślemy Ci e-mail, gdy w docelowym obszarze będzie wolne miejsce na nadchodzącym wieszaku na drzwi.</p>
+                                <form id="formEmail" class="my-4 py-2"  data-title="Powiadomienia włączone!" data-message="Zostałeś dodany do naszej listy powiadomień. Wkrótce powinieneś otrzymać e-mail z prośbą o wybranie obszarów, które najbardziej Cię interesują." data-aos="fade-up-right" data-aos-delay="500" data-aos-offset="50">
+                                    <div class="form-mail">
+                                        <button class="form-mail-button" type="submit">
+                                            <span class="icon-btn-send">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.50978 4.22989L18.0698 8.50989C21.9098 10.4299 21.9098 13.5699 18.0698 15.4899L9.50978 19.7699C3.74978 22.6499 1.39978 20.2899 4.27978 14.5399L5.14978 12.8099C5.36978 12.3699 5.36978 11.6399 5.14978 11.1999L4.27978 9.45989C1.39978 3.70989 3.75978 1.34989 9.50978 4.22989Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M5.43994 12H10.8399" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            </span>
+                                            <span class="text text-uppercase fw-normal">Subskrybuj</span>
+                                        </button>  
+                                        <input type="email" class="form-control form-mail-input ps-4" name="email" placeholder="Twój Email" required>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 d-none d-xl-inline-block" data-aos="fade-left" data-aos-delay="700" data-aos-offset="50"><p class="lh-sm text-light-white">Jeśli masz pytania, skontaktuj się z nami! Jesteśmy gotowi, by odpowiedzieć na Twoje pytania i pomóc Ci w rozwiązaniu problemu.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section>
+        <div class="container">
+            <div id="shared-marketing" class="row g-0 row-backdown">
+                <div class="col-12 col-lg-6 text-center text-lg-start pe-lg-5">
+                    <h2 class="fw-bold text-black pb-md-3" data-aos="fade-right" data-aos-delay="100" data-aos-offset="50">Średnia <span class="text-primary">wycena</span> marketingowa.</h2>
+                    <p class="lh-sm my-4 py-2" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50">Wprowadź lokalizację, aby poznać liczbę domów i orientacyjny koszt dostarczenia materiałów reklamowych.</p>
+                    
+                    <h5 class="fw-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-offset="50">Pokaż ceny dla</h5>
+                    <div class="position-relative" data-aos="fade-left" data-aos-delay="700" data-aos-offset="50" style="z-index: 5;">
+                        <select id="sharedMarketingSelect" class="my-3 mb-lg-0"></select>
+                    </div>
+                    <div class="row mb-4 mb-md-0 pt-3 d-none d-lg-flex">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-primary w-100 btn-animation px-3" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="300" data-aos-offset="50">Zamów teraz <span class="js-element-animation"></span></button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-primary btn-animation w-100" onclick="document.getElementById('getQuoteForm').scrollIntoView();" data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">Skontaktuj się <span class="js-element-animation"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div id="sharedMarketingCard" class="card rounded-6" data-aos="flip-right" data-aos-delay="300" data-aos-offset="100">
+                         <div class="js-card-img border-rounded-top-6"></div>
+                        <div class="card-body d-flex justify-content-around">
+                          <div class="text-center w-50">
+                              <span>Liczba domów</span>
+                              <span class="js-total-houses"></span>
+                          </div>
+                          <span style="border-left: 1px solid #DCD9E5;"></span>
+                          <div class="text-center w-50">
+                              <span>Koszt</span>
+                              <span class="js-total-cost"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row pt-4 d-lg-none">
+                        <div class="col-12 col-md-6 mb-4" data-aos="fade-right" data-aos-delay="500" data-aos-offset="50">
+                            <button type="button" class="btn btn-primary w-100 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs">Zamów teraz<span class="js-element-animation"></span></button>
+                        </div>
+                        <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="600" data-aos-offset="50">
+                            <button type="button" class="btn btn-outline-primary btn-animation w-100" onclick="document.getElementById('getQuoteForm').scrollIntoView();">Skontaktuj się <span class="js-element-animation"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="bg-gradient-black">
+        <div class="container">
+            <div class="row align-items-center text-white black-section">
+                <div class="col-12 col-lg-5 position-relative text-center text-lg-start d-lg-none">
+                    <h2 class="fw-bold pb-2" data-aos="fade-right" data-aos-delay="100">Marketing pod klucz<span class="text-yellow">.</span> </h2>
+                </div>
+                <div class="col-12 col-lg-7 position-relative mt-4 mt-lg-0 order-lg-2">
+                    <div class="mb-4 rounded-5 turnkey-marketing-card turnkey-marketing-card-design-bg" data-aos="flip-up" data-aos-delay="500" data-aos-offset="50">
+                        <h3 class="text-shadow fw-semibold mb-0 turnkey-marketing-card-title"><span class="d-none d-xxl-inline-block">Profesjonalny projekt</span><span class="d-xxl-none">Projekt</span></h3>
+                    </div>
+                    <div class="mb-4 rounded-5 turnkey-marketing-card turnkey-marketing-card-print-bg ms-auto" data-aos="flip-up" data-aos-delay="700" data-aos-offset="50">
+                        <h3 class="text-shadow fw-semibold mb-0 turnkey-marketing-card-title"><span class="d-none d-xxl-inline-block">Jakość druku</span><span class="d-xxl-none">Druk</span></h3>
+                    </div>
+                    <div class="rounded-5 turnkey-marketing-card turnkey-marketing-card-distribute-bg" data-aos="flip-up" data-aos-delay="900" data-aos-offset="50">
+                        <h3 class="text-shadow fw-semibold mb-0 turnkey-marketing-card-title"><span class="d-none d-xxl-inline-block">Dostawa</span><span class="d-xxl-none">Dostawa</span></h3>
+                    </div>
+                    <div class="position-absolute d-none d-lg-block turnkey-marketing-arrow" data-aos="fade-up-left" data-aos-delay="1200" data-aos-offset="50">
+                        <img class="opacity-25" src="images/design-image/arrow-line.png" alt="Arrow line">  
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 position-relative text-center text-lg-start">
+                    <h2 class="fw-bold pb-2 d-none d-lg-block" data-aos="fade-right" data-aos-delay="100">Marketing pod klucz<span class="text-yellow">.</span> </h2>
+                    <p class="lh-sm mt-4 pb-2" data-aos="fade-right" data-aos-delay="200">Zaoszczędź czas i uniknij frustracji, zlecając zarządzanie Twoją kampanią jednemu z naszych specjalistów.</p>
+                    <p class="lh-sm mt-4" data-aos="fade-right" data-aos-delay="300">Nasz zespół zajmie się wstępnym badaniem rynku, a następnie zaprojektuje, wydrukuje i dostarczy Twoją reklamę za pośrednictwem naszej sieci niezawodnych dystrybutorów.</p>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modalContactUs" class="btn btn-yellow btn-hover mb-2 mt-4 z-index-plus-1 position-relative" data-aos="fade-down-right" data-aos-delay="1300" data-aos-offset="50">Zaczni już dziś</button>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+        <section id="section-printing">
+            <div class="container">
+                <div class="row g-0 row-backdown">
+                    <div class="col-12 col-lg-6 text-center text-lg-start pe-lg-5">
+                        <h2 class="fw-bold text-black pb-md-3" data-aos="fade-right">Cennik</h2>
+                        <p class="lh-sm my-4 py-2" data-aos="fade-right" data-aos-delay="100">Wybierz produkt, aby sprawdzić dostępne opcje oraz ceny. Znajdź ofertę dopasowaną do Twoich potrzeb i zamów online!</p>
+                         <h5 class="fw-semibold" data-aos="fade-up" data-aos-delay="200">Pokaż ceny dla</h5>
+                         <div class="position-relative" data-aos="fade-left" data-aos-delay="700" style="z-index: 4;">
+                            <select id="printingSelect" class="my-3 mb-lg-0" aria-label="Default select example"></select>
+                         </div>
+                         <div class="row mb-4 mb-md-0 pt-3 d-none d-lg-flex">
+                            <div class="col-6">
+                                <button type="button" class="btn btn-primary w-100 btn-animation px-3" data-bs-toggle="modal" data-bs-target="#modalContactUs" data-aos="fade-right" data-aos-delay="300" data-aos-offset="50">Zamów teraz <span class="js-element-animation"></span></button>
+                            </div>
+                            <div class="col-6">
+                                <button type="button" class="btn btn-outline-primary btn-animation w-100" onclick="document.getElementById('getQuoteForm').scrollIntoView();" data-aos="fade-up" data-aos-delay="500" data-aos-offset="50">Skontaktuj się <span class="js-element-animation"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                       <div class="container">
+                        <table id="printingTable" class="table table-fixed" data-aos="flip-right" data-aos-delay="500" data-aos-offset="50">
+                            <thead>
+                              <tr class="text-black">
+                                <th class="col-8">Ilość</th>
+                                <th class="col-4 text-center">Cena</th>
+                              </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                       </div>
+                          <span class="d-block text-light-dark text-xxs text-center pt-sm-3" data-aos="zoom-in" data-aos-delay="700" data-aos-offset="50">Ceny podane w tabeli mogą się różnić w zależności od różnych czynników.</span>
+                          <div class="row pt-4 d-lg-none">
+                            <div class="col-12 col-md-6 mb-4" data-aos="fade-right" data-aos-delay="500" data-aos-offset="50">
+                                <button type="button" class="btn btn-primary w-100 btn-animation" data-bs-toggle="modal" data-bs-target="#modalContactUs">Zamów teraz<span class="js-element-animation"></span></button>
+                            </div>
+                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="600" data-aos-offset="50">
+                                <button type="button" class="btn btn-outline-primary btn-animation w-100" onclick="document.getElementById('getQuoteForm').scrollIntoView();">Skontaktuj się <span class="js-element-animation"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section>
+        <div class="container">
+            <div class="row g-0 row-backdown" id="faq">
+                <div class="col-12 text-center text-lg-start">
+                    <h2 class="fw-bold text-black pb-5">Najczęściej zadawane pytania<span class="text-primary">.</span></h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header ps-3 ps-md-0" id="headingOne">
+                                    <button id="how-to-order" class="accordion-button text-black fw-semibold collapsed px-0 mb-3 pb-2 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Jak zamawiać?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-start pe-md-5">
+                                        <div class="mb-2">
+                                            <span class="fw-bold">Krok 1: </span>Wybierz produkt
+                                            <p>Zamówienie możesz złożyć bezpośrednio na naszej stronie internetowej. Wybierz rodzaj produktu (ulotki na drzwi, wizytówki lub pocztówki), dostosuj projekt..itd</p>
+                                        </div>
+                                        <div class="mb-2">
+                                            <span class="fw-bold">Krok 2: </span>Wybierz produkt
+                                            <p>Przejrzyj naszą ofertę i wybierz pożądany produkt. Możesz przeglądać różne kategorie lub skorzystać z funkcji wyszukiwania, aby łatwiej znaleźć interesujący Cię produkt.</p>
+                                        </div>
+                                        <div class="mb-2">
+                                            <span class="fw-bold">Krok 3: </span>Wypewni formularz
+                                            <p>Po złożeniu zamówienia otrzymasz potwierdzenie na e-maila z dalszymi instrukcjami.</p>
+                                        </div>
+                                        <hr>
+                                  </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header ps-3 ps-md-0" id="headingTwo">
+                                    <button class="accordion-button text-black fw-semibold collapsed px-0 mb-3 pb-2 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Jak przesłać projekt do druku?
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body text-start pe-md-5">
+                                        <div class="mb-2">
+                                            <span class="fw-bold">W trakcie składania zamówienia pojawi się opcja przesłania projektu. </span>
+                                            <p>Możesz wgrać plik w formatach PDF, JPG lub PNG. W razie wątpliwości, nasz zespół chętnie pomoże dopasować projekt do specyfikacji druku.</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header ps-3 ps-md-0" id="headingThree">
+                                      <button class="accordion-button text-black fw-semibold collapsed px-0 mb-3 pb-2 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Czy mogę zamówić próbkę przed złożeniem większego zamówienia?
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body text-start pe-md-5">
+                                          <div class="mb-2">
+                                              <span class="fw-bold">Tak, </span>oferujemy możliwość zamówienia próbki wybranego produktu.
+                                              <p>Skontaktuj się z nami, aby uzyskać więcej informacji i wycenę.</p>
+                                          </div>
+                                          <hr>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header ps-3 ps-md-0" id="headingFour">
+                                      <button class="accordion-button text-black fw-semibold collapsed px-0 mb-3 pb-2 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Jak długo trwa realizacja zamówienia?
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body text-start pe-md-5">
+                                        <div class="mb-2">
+                                            <span class="fw-bold">Czas realizacji zależy od wielkości i rodzaju zamówienia, zazwyczaj trwa od 2 do 5 dni roboczych.</span>
+                                            <p>Dokładne terminy realizacji podajemy na etapie składania zamówienia.</p>
+                                        </div>
+                                        <hr>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header ps-3 ps-md-0" id="headingFive">
+                                      <button class="accordion-button text-black fw-semibold collapsed px-0 mb-3 pb-2 pe-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Jak dokonać zwrotu lub złożyć reklamację towaru?
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body text-start pe-md-5">
+                                        <div class="mb-2">
+                                            <span class="fw-bold">Jeśli produkt nie spełnia Twoich oczekiwań, skontaktuj się z nami w ciągu 14 dni od daty otrzymania zamówienia. </span>
+                                            <p>Prosimy o dołączenie zdjęć i opisu problemu, abyśmy mogli jak najszybciej rozpatrzyć reklamację.</p>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+        <div id="sectionGetInTouch" class="mb-0 position-relative z-index-plus-1 section-get-in-touch-bg">
+            <div class="position-absolute top-0 start-0 z-index-min-1" data-aos="fade-right" data-aos-delay="100" data-aos-offset="50"><img src="images/design-image/design-01.svg" alt="Design img"></div>
+            <div class="position-absolute bottom-0 start-0 z-index-min-1" data-aos="fade-right" data-aos-delay="200" data-aos-offset="50"><img src="images/design-image/design-02.svg" alt="Design img"></div>
+            <div class="position-absolute top-0 end-0 z-index-min-1 top-md-10" data-aos="fade-left" data-aos-delay="1000" data-aos-offset="50"><img src="images/design-image/design-03.svg" alt="Design img"></div>
+            <div class="container">
+                <div class="row g-0 py-lg-5 justify-content-center justify-content-lg-start mobile-backdown">
+                    <div class="col-10 col-lg-5 text-center text-lg-start text-white py-6">
+                        <h2 class="fw-bold" data-aos="fade-right" data-aos-delay="400" data-aos-offset="50">Skontaktuj się</h2>
+                        <p class="lh-sm my-4 py-2" data-aos="fade-right" data-aos-delay="400" data-aos-offset="50">Jesteśmy do Twojej dyspozycji! Nasz zespół chętnie pomoże w wyborze odpowiednich produktów, przygotowaniu projektu do druku oraz odpowie na wszystkie pytania związane z realizacją zamówienia.</p>
+                        <address class="mb-0">
+                            <a href="tel:+12341231234" class="text-white text-decoration-none d-flex align-items-sm-center mb-4">
+                                <i class="icon-call text-lg text-yellow me-3 me-sm-4 pt-1 pt-sm-0" data-aos="zoom-in" data-aos-delay="850" data-aos-offset="50"></i>
+                                <span class="d-flex flex-wrap" data-aos="fade-left" data-aos-delay="650" data-aos-offset="50">
+                                    <span class="me-2">Bezpłatny:</span>
+                                    <span>+48(790)490888</span>
+                                </span>
+                            </a>
+                            <a href="mailto:drukomarket@gmail.com" class="text-white text-decoration-none d-flex align-items-sm-center mb-4">
+                                <i class="icon-sms text-lg text-yellow me-3 me-sm-4 pt-1 pt-sm-0" data-aos="zoom-in" data-aos-delay="950" data-aos-offset="50"></i>
+                                <span class="d-flex flex-wrap" data-aos="fade-left" data-aos-delay="750" data-aos-offset="50">
+                                    <span class="me-2">E-mail:</span>
+                                    <span>drukomarket@gmail.com</span>
+                                </span>
+                            </a>
+                            <a href="#getQuoteForm" class="text-white text-decoration-none d-flex align-items-sm-center">
+                                <i class="icon-calculator text-lg text-yellow me-3 me-sm-4 pt-1 pt-sm-0" data-aos="zoom-in" data-aos-delay="1050" data-aos-offset="50"></i>
+                                <span class="fw-semibold text-start" data-aos="fade-left" data-aos-delay="850" data-aos-offset="50">Chcesz otrzymać natychmiastową wycenę?</span>
+                            </a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-start align-items-lg-end">
+                <div class="col-12 col-lg-6 main-form order-lg-2" data-aos="fade-down" data-aos-delay="200" data-aos-anchor="#sectionGetInTouch" data-aos-anchor-placement="top-center">
+                    <form id="formFooter" class="bg-white p-4 p-sm-5 rounded-4 form-box-shadow" data-title="Success!" data-message="Dziekuje">
+                        <h3 class="mb-4 text-center fw-bold text-black">Wyślij nam <span class="text-primary fst-italic">wiadomość.</span></h3>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-3">
+                                <label for="formFooterName" class="form-label mb-2 text-black text-xxs fw-normal">Nazwa kontaktu:*</label>
+                                <input type="text" class="form-control text-xxs" name="Name" id="formFooterName" placeholder="Name" required>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <label for="formFooterPhoneNumber" class="form-label mb-2 text-black text-xxs fw-normal">Numer telefonu:</label>
+                                <input type="number" class="form-control text-xxs" name="Phone_Number" id="formFooterPhoneNumber" placeholder="Numer telefonu" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="formFooterEmail" class="form-label mb-2 text-black text-xxs fw-normal">E-mail:*</label>
+                                <input type="email" class="form-control text-xxs" name="E-Mail_Address" id="formFooterEmail" placeholder="twojemail@gmail.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="formFooterMessage" class="form-label mb-2 text-black text-xxs fw-normal">Twoja wiadomość:*</label>
+                                <textarea name="Message" id="formFooterMessage" class="form-control text-xxs w-100" placeholder="Zacznij pisać wiadomość..." rows="9" required></textarea>
+                            </div>
+                            <div class="col-12 text-center mt-4 mt-sm-5">
+                                <button type="submit" class="btn btn-primary" data-aos="fade-down" data-aos-delay="300" data-aos-anchor="sectionGetInTouch" data-aos-anchor-placement="top-center">Wyślij wiadomość <span class="js-element-animation"></span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-10 col-lg-6 text-center text-lg-start order-lg-1 mt-5 pt-5 mt-lg-0 pt-lg-0">
+                    <a href="index.html" class="d-block m-auto m-lg-0" style="max-width: 369px;"><img src="images/logo.png" alt="Logo"></a>
+                    <p class="lh-sm mt-2 m-sm-auto ms-lg-0" style="max-width: 580px;">DrukoMarket to firma, której możesz zaufać. Wybierz nas – stwórz materiały, które wyróżnią Cię na rynku i pomogą w budowaniu silnej marki!</p>
+                </div>
+            </div>
+            <div class="row g-0 justify-content-center jusify-content-lg-start row-backdown mb-0 align-items-baseline">
+                <div class="col-10 col-md-7 col-lg-3 text-center text-lg-start my-4">
+                    <h6 class="lh-sm mb-3 text-black fw-semibold">Warszawa Office</h6>
+                    <address class="fst-italic text-center text-lg-start">
+                        <a href="tel:+48790490888" class="d-block text-decoration-none text-dark text-xs">
+                            <span>Bezpłatny: +48790490888</span>
+                        </a>
+                        <a href="mailto:drukomarket@gmail.com" class="d-block text-decoration-none text-dark text-xs">
+                            <span>E-mail: drukomarket@gmail.com</span>
+                        </a>
+                    </address>
+                </div>
+                <div class="col-10 col-md-7 col-lg-3">
+                    <div class="mb-4 pb-2 mb-lg-0 pb-lg-0">
+                        <h6 class="lh-sm mb-3 d-none d-lg-block text-black fw-semibold">Więcej</h6>
+                        <button class="collapse-button collapsed position-relative text-dark fw-semibold d-inline-block d-lg-none border-0 bg-transparent w-100 text-start px-0"
+                        data-bs-toggle="collapse" data-bs-target="#collapseMoreDetails" aria-expanded="false" aria-controls="collapseMoreDetails">
+                        Więcej
+                        </button>
+                        <div class="collapse show-lg mt-3" id="collapseMoreDetails">
+                            <a href="#our-products" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Usługi
+                            </a>
+                            <a href="javascript:void(0);" class="js-how-to-order d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Jak zamawiać
+                            </a>
+                            <a href="#section-printing" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Cennik
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-7 col-lg-3">
+                    <div class="mb-4 pb-2 mb-lg-0 pb-lg-0">
+                        <h6 class="lh-sm mb-3 d-none d-lg-block text-black fw-semibold">Dla klienta</h6>
+                        <button class="collapse-button collapsed position-relative text-dark fw-semibold d-block d-lg-none border-0 bg-transparent w-100 text-start px-0"
+                        data-bs-toggle="collapse" data-bs-target="#collapsePricing" aria-expanded="false" aria-controls="collapsePricing">
+                        Dla klienta
+                        </button>
+                        <div class="collapse show-lg mt-3" id="collapsePricing">
+                            <a href="#advantages" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Zalety
+                            </a>
+                            <a href="#new-clients" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                O firmie
+                            </a>
+                            <a href="#sectionGetInTouch" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Kontakt
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-7 col-lg-3">
+                    <div class="mb-4 pb-2 mb-lg-0 pb-lg-0">
+                        <h6 class="lh-sm mb-3 d-none d-lg-block text-black fw-semibold">Informacje</h6>
+                        <button class="collapse-button collapsed position-relative text-dark fw-semibold d-inline-block d-lg-none border-0 bg-transparent w-100 text-start px-0"
+                        data-bs-toggle="collapse" data-bs-target="#collapseRegulamin" aria-expanded="false" aria-controls="collapseRegulamin">
+                        Informacje
+                        </button>
+                        <div class="collapse show-lg mt-3" id="collapseRegulamin">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modalPrivacyPolicy" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Polityka prywatności
+                            </a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modalRegulations" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Regulamin sklepu
+                            </a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modalDeliveryInfo" class="d-block mb-2 text-xs text-dark text-decoration-none text-capitalize">
+                                Wysyłka i płatności 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-3 my-sm-5">
+				<div class="col-12 text-center">
+					<p class="text-xs"> © Copyright 2024 Ivanna Onofriychuk. All Rights Reserved.</p>
+				</div>
+			</div>
+        </div>
+    </footer>
+   <!-- *************************************************************************************************************************
+        ********************************************    MODALS    ***************************************************************
+        ************************************************************************************************************************* -->
+        <div class="modal fade" id="modalContactUs" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalContactUs" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-xxl">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-white rounded-4 p-0 text-black overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-12 col-lg-6">
+                                <div class="p-4 p-md-5 p-lg-4 p-xl-5 d-flex flex-column justify-content-between h-100">
+                                    <div>
+                                        <h2 class="fw-semibold lh-sm mb-5">Rozpocznij</h2>
+                                        <p class="text-lg lh-sm fw-semibold mb-5">Skontaktuj się z nami mailowo i ustal szczegóły zamówienia</p>
+                                        <p class="text-md lh-sm mb-5 text-secondary" style="max-width: 550px;">
+                                            Nasz zespół ekspertów jest gotowy, aby pomóc Ci w każdym etapie realizacji zamówienia, od pomysłu po gotowy produkt.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="text-lg lh-sm fw-semibold mb-5">
+                                            Potrzebujesz pomocy?
+                                            <span class="text-primary fst-italic fw-bold">Skontaktuj się z nami!</span>
+                                        </p>
+                                        <address class="mb-0">
+                                            <a href="tel:+48780490888" class="text-md text-primary text-decoration-none d-flex align-items-sm-center mb-4">
+                                                <i class="icon-call text-lg me-3 me-sm-4 pt-1 pt-sm-0"></i>
+                                                <span class="d-flex flex-wrap">
+                                                    <span class="me-2 text-black">Bezplatny:</span>
+                                                    <span>+48(780)490888</span>
+                                                </span>
+                                            </a>
+                                            <a href="mailto:drukomarket@gmail.com" class="text-md text-primary text-decoration-none d-flex align-items-sm-center">
+                                                <i class="icon-sms text-lg me-3 me-sm-4 pt-1 pt-sm-0"></i>
+                                                <span class="d-flex flex-wrap">
+                                                    <span class="me-2 text-black">E-mail:</span>
+                                                    <span>drukomarket@gmail.com</span>
+                                                </span>
+                                            </a>
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center form-bg-gradient-blue">
+                                <div class="p-4 p-md-5 p-lg-4 p-xl-5">
+                                    <form class="js-modal-form bg-white border-3 p-4 p-md-5 p-lg-4 p-xl-5 rounded-3 form-box-shadow" novalidate>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 pb-3 lh-1">
+                                                <label for="regularMarketingName" class="form-label mb-2 text-black text-xxs fw-normal lh-sm">Imię i nazwisko: *</label>
+                                                <input id="regularMarketingName" type="text" class="form-control" name="Name" placeholder="Name" required>
+                                            </div>
+                                            <div class="col-12 col-lg-6 pb-3 lh-1">
+                                                <label for="regularMarketingPhoneNum" class="form-label mb-2 text-black text-xxs fw-normal lh-sm">Numer telefonu:</label>
+                                                <input id="regularMarketingPhoneNum" type="text" class="form-control" name="Phone_Number" placeholder="Numer telefonu">
+                                            </div>
+
+                                            <div class="col-12 pb-3">
+                                                <label for="regularMarketingEmail" class="form-label mb-2 text-black text-xxs fw-normal lh-sm">E-mail: *</label>
+                                                <input id="regularMarketingEmail" type="email" class="form-control" name="E-Mail_Address" placeholder="twojemail@gmail.com" required>
+                                            </div>
+                                            <div class="col-12 pb-3">
+                                                <label for="marketingType" class="form-label mb-2 text-black text-xxs fw-normal lh-sm">Proszę wybrać rodzaj wysylki: *</label>
+                                                <select id="marketingType" name="Marketing_Type" class="form-select" aria-label="Marketing_Type" required>
+                                                    <option value="" disabled selected hidden>Od drzwi do drzwi</option>
+                                                    <option value="Od drzwi do drzwi">Od drzwi do drzwi</option>
+                                                    <option value="Dostawa do krzynki pocztowej">Dostawa do Skrzynki pocztowej</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="printType" class="form-label mb-2 text-black text-xxs fw-normal lh-sm">Typ druku: *</label>
+                                                <select id="printType" name="Print_Type" class="form-select" aria-label="Print_Type" required>
+                                                    <option value="" disabled selected hidden>Wieszak na drzwi</option>
+                                                    <option value="Wieszak na drzwi">Wieszak na drzwi</option>
+                                                    <option value="Pocztówka">Pocztówka</option>
+                                                    <option value="Wizytówka">Wizytówka</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 text-center mt-4 mt-md-5">
+                                                <button type="submit" class="btn btn-primary d-flex justify-content-center align-items-center box-shadow-btn w-100 w-md-50 m-auto btn-primary-hover btn-animation-right">Wyslać
+                                                    <i class="d-none d-lg-block icon-arrow-right-3 ms-2 btn-animation-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalFinalizeEstimate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalFinalizeEstimate" aria-modal="true" role="dialog" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-white rounded-4 p-0">
+                        <form id="formFinalizeEstimate" class="bg-white border-3 p-4 p-sm-5 rounded-4 text-black form-box-shadow">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10 text-center mb-3 pb-3">
+                                    <h2 class="fw-semibold text-xll mb-4">Jesteś o kliknięcie dalej</h2>
+                                    <p class="lh-sm">Do Twojego kosztorysu dołączyliśmy następujące informacje o druku. Opcje te zostały wybrane podczas korzystania z naszego narzędzia do szacowania kosztów.</p>
+                                </div>
+                                <h4 class="fw-semibold pb-3 text-center text-lg-start">Informacje kontaktowe</h4>
+                                <div class="col-12 col-lg-6 pb-4">
+                                    <input type="text" class="form-control" name="Name"  placeholder="Nazwa" required>
+                                </div>
+                                <div class="col-12 col-lg-6 pb-4">
+                                    <input type="number" class="form-control" name="Phone_Number" placeholder="Numer telefonu" required>
+                                </div>
+                            
+                                <div class="col-12 pb-4">
+                                    <input type="email" class="form-control" name="E-Mail_Address" placeholder="twójmail@gmail.com" required>
+                                </div>
+                                <div class="col-12 pb-4">
+                                    <div id="jsModalGetDesignDropZone">
+                                        <h4 class="fw-semibold pb-3 text-center text-lg-start">Dodatkowe pliki (pomysły, Twoje logo itp.)</h4>
+                                        <div class="drop-zone-container">
+                                            <div class="drop-zone upload-design-lets-print-modal">
+                                                <div class="drop-zone-prompt">
+                                                    <span class="drop-zone-prompt-img"></span>
+                                                    <span class="drop-zone-prompt-title">Przeciągnij & Upuść Swój Plik</span>
+                                                    <span class="drop-zone-prompt-subtitle">lub</span>
+                                                    <button type="button" class="btn btn-primary d-block m-auto">Przeglądaj Pliki</button>
+                                                </div>
+                                                <input type="file" name="File" class="drop-zone-input">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="fw-semibold pb-3 text-center text-lg-start">Oszacuj wyniki</h4>
+                                <a href="javascript:void(0)" class="text-decoration-none fw-normal d-flex align-items-center mb-5 justify-content-center justify-content-lg-start bg-light-grey-with-border rounded-4" data-bs-toggle="modal" data-bs-target="#modalEstimateResult">
+                                <span class="me-3">
+                                    <svg width="29" height="34" viewBox="0 0 29 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M22.5499 11.2999C21.7858 11.4089 21.0068 11.3385 20.2746 11.0944C19.5425 10.8503 18.8772 10.439 18.3314 9.8933C17.7857 9.34754 17.3744 8.68225 17.1303 7.95006C16.8862 7.21788 16.8158 6.43893 16.9249 5.67485V0.0498533H5.67485C4.91078 -0.0591626 4.13182 0.0111794 3.39964 0.255311C2.66746 0.499443 2.00216 0.910661 1.45641 1.45641C0.910661 2.00216 0.499443 2.66746 0.255311 3.39964C0.0111797 4.13182 -0.0591627 4.91078 0.0498532 5.67485V28.1749C-0.0591627 28.9389 0.0111797 29.7179 0.255311 30.4501C0.499443 31.1823 0.910661 31.8476 1.45641 32.3933C2.00216 32.9391 2.66746 33.3503 3.39964 33.5944C4.13182 33.8385 4.91078 33.9089 5.67485 33.7999H22.5499C23.3139 33.9089 24.0929 33.8385 24.8251 33.5944C25.5572 33.3503 26.2225 32.9391 26.7683 32.3933C27.314 31.8476 27.7253 31.1823 27.9694 30.4501C28.2135 29.7179 28.2839 28.9389 28.1749 28.1749V11.2999H22.5499Z" fill="#396CE8"/>
+                                        <path d="M22.5499 11.2998H28.1749L16.9249 0.0498047V5.67481C16.8158 6.43888 16.8862 7.21783 17.1303 7.95001C17.3744 8.6822 17.7857 9.34749 18.3314 9.89325C18.8772 10.439 19.5425 10.8502 20.2746 11.0943C21.0068 11.3385 21.7858 11.4088 22.5499 11.2998V11.2998Z" fill="#396CE8"/>
+                                        <path d="M20.6748 18.3311H7.5498C7.17684 18.3311 6.81916 18.1829 6.55544 17.9192C6.29171 17.6554 6.14355 17.2978 6.14355 16.9248C6.14355 16.5518 6.29171 16.1942 6.55544 15.9304C6.81916 15.6667 7.17684 15.5186 7.5498 15.5186H20.6748C21.0478 15.5186 21.4055 15.6667 21.6692 15.9304C21.9329 16.1942 22.0811 16.5518 22.0811 16.9248C22.0811 17.2978 21.9329 17.6554 21.6692 17.9192C21.4055 18.1829 21.0478 18.3311 20.6748 18.3311V18.3311ZM16.4561 24.4248C16.4561 24.0518 16.3079 23.6942 16.0442 23.4304C15.7805 23.1667 15.4228 23.0186 15.0498 23.0186H7.5498C7.17684 23.0186 6.81916 23.1667 6.55544 23.4304C6.29171 23.6942 6.14355 24.0518 6.14355 24.4248C6.14355 24.7978 6.29171 25.1555 6.55544 25.4192C6.81916 25.6829 7.17684 25.8311 7.5498 25.8311H15.0498C15.4228 25.8311 15.7805 25.6829 16.0442 25.4192C16.3079 25.1555 16.4561 24.7978 16.4561 24.4248V24.4248Z" fill="#396CE8"/>
+                                    </svg>
+                                </span>
+                                    Formularz wyceny - wybrane obszary
+                                </a>
+                                <h4 class="fw-semibold pb-3 text-center text-lg-start">Dodatkowe uwagi</h4>
+                                <div class="col-12">
+                                    <textarea class="form-control w-100" name="Message" placeholder="Zacznij pisać swoją wiadomość..." rows="5"></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4 mt-sm-5">
+                                    <button type="submit" class="btn btn-primary box-shadow-btn w-md-50 w-lg-25 m-auto">Wyslać</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalEstimateResult" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalEstimateResult" aria-modal="true" role="dialog" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-white rounded-4 overflow-hidden p-0">
+                        <form id="formEstimateResult" class="bg-white text-black form-box-shadow" novalidate>
+                            <div class="p-4 p-sm-5 text-center text-lg-start">
+                                <h2 class="fw-semibold text-xll mb-4">Podsumowanie</h2>
+                                <p class="lh-sm w-lg-75">Do Twojego kosztorysu dołączyliśmy następujące informacje o druku. Opcje te zostały wybrane podczas korzystania z naszego narzędzia do szacowania kosztów.</p>
+                                <table id="tableEstimateResultlistChecked" class="table mt-4 mt-lg-5">
+                                    <tbody>
+                                    <tr>
+                                        <th class="p-2 px-sm-4 py-sm-3 w-50" scope="row">Typ dystrybucji</th>
+                                        <td id="estimateResultDeliveryType" class="text-center p-2 px-sm-4 py-sm-3 w-50 border-start"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="p-2 px-sm-4 py-sm-3 w-50" scope="row">Format wydruku</th>
+                                        <td id="estimateResultPrintType" class="text-center p-2 px-sm-4 py-sm-3 w-50 border-start"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="p-2 px-sm-4 py-sm-3 w-50" scope="row">Rozmiar wydruku</th>
+                                        <td id="estimateResultPrintSize" class="text-center p-2 px-sm-4 py-sm-3 w-50 border-start"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="p-2 px-sm-4 py-sm-3 w-50" scope="row">Wydrukuj strony</th>
+                                        <td id="estimateResultPrintSide" class="text-center p-2 px-sm-4 py-sm-3 w-50 border-start"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="p-4 p-sm-5 text-center text-lg-start bg-light-mint rounded-4">
+                                <h2 class="fw-semibold text-xll mb-4">Obszary dystrybucji</h2>
+                                <p class="lh-sm w-lg-75">Następujące obszary są uwzględniane w Twoim szacunku, aby nasz agent mógł Ci lepiej pomóc. Informacje te zostały wybrane przy użyciu naszego narzędzia do szacowania kosztów.</p>
+                                
+                                <table class="table tabel-estimate-result mt-4 mt-lg-5">
+                                    <thead>
+                                    <tr class="text-black">
+                                        <th class="col-8">Poziomy cenowe</th>
+                                        <th class="col-4 text-center">Cena</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="tableEstimateResult">
+                                    </tbody>
+                                </table>
+                                <div class="col-12 text-center mt-4 mt-md-5">
+                                    <button type="button" class="btn btn-primary box-shadow-btn  w-md-50 w-lg-25 m-auto" data-bs-dismiss="modal">Zamkąć</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalPrivacyPolicy" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPrivacyPolicy" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-xxl">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4 p-md-5 p-lg-4 p-xl-5 bg-white rounded-4 text-black overflow-hidden">
+                       <h3 class="mb-4 fw-bold">Polityka Prywatności</h3>
+                       <p>Dbamy o Twoją prywatność i bezpieczeństwo Twoich danych. Gromadzimy jedynie niezbędne informacje, takie jak dane kontaktowe i szczegóły zamówienia, które wykorzystujemy wyłącznie do realizacji usług oraz poprawy jakości obsługi.</p>
+                       <p>Nie udostępniamy Twoich danych osobom trzecim, chyba że jest to konieczne do realizacji zamówienia (np. w przypadku dostawy). Wszystkie informacje są przechowywane zgodnie z obowiązującymi przepisami prawa i zabezpieczone przed dostępem nieuprawnionych osób.</p>
+                       <p>Masz prawo do wglądu, edytowania lub usunięcia swoich danych w dowolnym momencie. Szczegółowe informacje znajdziesz w pełnym tekście Polityki Prywatności.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalRegulations" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalRegulations" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-xxl">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4 p-md-5 p-lg-4 p-xl-5 bg-white rounded-4 text-black overflow-hidden">
+                       <h3 class="mb-4 fw-bold">Regulamin Sklepu</h3>
+                       <ol>
+                        <li>
+                            <h4>Postanowienia ogólne</h4>
+                            <p>Niniejszy regulamin określa zasady korzystania ze sklepu internetowego. Dokonanie zakupu oznacza akceptację regulaminu.</p>
+                        </li>
+                        <li>
+                            <h4>Zamówienia</h4>
+                            <p>Zamówienia można składać 24/7 poprzez stronę internetową. Realizacja zamówienia następuje po jego opłaceniu.</p>
+                        </li>
+                        <li>
+                            <h4>Płatności</h4>
+                            <p>Akceptujemy płatności przelewem, kartą płatniczą oraz szybkie przelewy online.</p>
+                        </li>
+                        <li>
+                            <h4>Dostawa</h4>
+                            <p>Zamówienia dostarczane są na terenie Warszawy. Koszt i czas dostawy zależą od wybranej opcji.</p>
+                        </li>
+                        <li>
+                            <h4>Reklamacje i zwroty</h4>
+                            <p>Reklamacje przyjmowane są w ciągu 14 dni od daty dostawy. W przypadku wad produktu prosimy o kontakt w celu rozwiązania problemu.</p>
+                        </li>
+                        <li>
+                            <h4>Ochrona danych</h4>
+                            <p>Dane osobowe klientów są chronione zgodnie z Polityką Prywatności.</p>
+                        </li>
+                       </ol>
+                       <p>Szczegółowe informacje znajdują się w pełnym tekście regulaminu dostępnym na naszej stronie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalDeliveryInfo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalDeliveryInfo" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-xxl">
+                <div class="modal-content bg-trasparent border-0">
+                    <div class="modal-header border-0 p-0 mb-4">				
+                        <button type="button" class="btn-close p-0 bg-light-primary-gray me-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4 p-md-5 p-lg-4 p-xl-5 bg-white rounded-4 text-black overflow-hidden">
+                       <h3 class="mb-4 fw-bold">Wysyłka i płatność</h3>
+                       <p>Oferujemy szybką dostawę na terenie Warszawy – Twoje zamówienie dotrze pod wskazany adres w ciągu 1-3 dni roboczych.</p>
+                       <p>Płatności można dokonać wygodnie online (przelew lub karta płatnicza) lub gotówką przy odbiorze.
+                        Prosto, szybko i bezproblemowo!</p>                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="aos/aos.js"></script>
+    <script src="tom-select/tom-select.complete.js"></script>
+    <script src="sweetalert/sweetalert2.all.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2eT7yxldupBDN8rhaJd8KDJhLMTfX9Ps&callback=initMap&libraries=drawing&v=weekly" defer></script>
+    <script src="js/mapStyles.js"></script>
+    <script type="module" src="js/main.js"></script> 
+</body>
+</html>

@@ -1,0 +1,288 @@
+{
+    "status": {
+        "code": 200,
+        "message": "ok"
+    },
+    "result": [
+        {
+            "title": "Jednostronna Pocztówka (8.5x5.5)",
+            "value": "flyer_8-5x5-5_4-0",
+            "print_type": "flyer",
+            "print_size": "small",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/flyer-single.svg",
+            "prices": {
+                "500": "70.00",
+                "1000": "100.00",
+                "2000": "175.00",
+                "3000": "225.00",
+                "4000": "300.00",
+                "5000": "350.00",
+                "7500": "450.00",
+                "10000": "600.00",
+                "15000": "850.00",
+                "20000": "1100.00"
+            }
+        },
+        {
+            "title": "Dwustronna Pocztówka (8.5x5.5)",
+            "value": "flyer_8-5x5-5_4-4",
+            "print_type": "flyer",
+            "print_size": "small",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/flyer-double.svg",
+            "prices": {
+                "500": "170.00",
+                "1000": "200.00",
+                "2000": "275.00",
+                "3000": "325.00",
+                "4000": "400.00",
+                "5000": "450.00",
+                "7500": "550.00",
+                "10000": "700.00",
+                "15000": "950.00",
+                "20000": "1200.00"
+            }
+        },
+        {
+            "title": "Jednostronna Pocztówka (8.5x11)",
+            "value": "flyer_8-5x11_4-0",
+            "print_type": "flyer",
+            "print_size": "large",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/flyer-single.svg",
+            "prices": {
+                "500": "135.00",
+                "1000": "175.00",
+                "2000": "275.00",
+                "3000": "375.00",
+                "4000": "500.00",
+                "5000": "550.00",
+                "7500": "850.00",
+                "10000": "1100.00",
+                "15000": "1700.00",
+                "20000": "2000.00"
+            }
+        },
+        {
+            "title": "Dwustronna Pocztówka (8.5x11)",
+            "value": "flyer_8-5x11_4-4",
+            "print_type": "flyer",
+            "print_size": "large",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/flyer-double.svg",
+            "prices": {
+                "500": "235.00",
+                "1000": "275.00",
+                "2000": "375.00",
+                "3000": "475.00",
+                "4000": "600.00",
+                "5000": "650.00",
+                "7500": "950.00",
+                "10000": "1200.00",
+                "15000": "1800.00",
+                "20000": "2100.00"
+            }
+        },
+        {
+            "title": "Jednostronna Zawieszka na drzwi (3.5x8.5)",
+            "value": "doorhanger_3-5x8-5_4-0",
+            "print_type": "doorhanger",
+            "print_size": "small",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/doorhanger-single.svg",
+            "prices": {
+                "100": "55.00",
+                "250": "70.00",
+                "500": "90.00",
+                "750": "110.00",
+                "1000": "130.00",
+                "1500": "160.00",
+                "2000": "185.00",
+                "2500": "220.00",
+                "5000": "375.00",
+                "10000": "650.00"
+            }
+        },
+        {
+            "title": "Dwustronna Zawieszka na drzwi (3.5x8.5)",
+            "value": "doorhanger_3-5x8-5_4-4",
+            "print_type": "doorhanger",
+            "print_size": "small",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/doorhanger-double.svg",
+            "prices": {
+                "100": "155.00",
+                "250": "170.00",
+                "500": "190.00",
+                "750": "210.00",
+                "1000": "230.00",
+                "1500": "260.00",
+                "2000": "285.00",
+                "2500": "320.00",
+                "5000": "475.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Jednostronna Zawieszka na drzwi (4.5x11)",
+            "value": "doorhanger_4-5x11_4-0",
+            "print_type": "doorhanger",
+            "print_size": "large",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/doorhanger-single.svg",
+            "prices": {
+                "100": "65.00",
+                "250": "85.00",
+                "500": "110.00",
+                "750": "130.00",
+                "1000": "150.00",
+                "1500": "190.00",
+                "2000": "220.00",
+                "2500": "260.00",
+                "5000": "420.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Dwustronna Zawieszka na drzwi (4.5x11)",
+            "value": "doorhanger_4-5x11_4-4",
+            "print_type": "doorhanger",
+            "print_size": "large",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/doorhanger-double.svg",
+            "prices": {
+                "100": "155.00",
+                "250": "170.00",
+                "500": "190.00",
+                "750": "210.00",
+                "1000": "230.00",
+                "1500": "260.00",
+                "2000": "285.00",
+                "2500": "320.00",
+                "5000": "475.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Jednostronna Wizytówka",
+            "value": "businesscard_4-0",
+            "print_type": "business_card",
+            "print_size": "small",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/card-single.svg",
+            "prices": {
+                "100": "155.00",
+                "250": "170.00",
+                "500": "190.00",
+                "750": "210.00",
+                "1000": "230.00",
+                "1500": "260.00",
+                "2000": "285.00",
+                "2500": "320.00",
+                "5000": "475.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Dwustronna Wizytówka",
+            "value": "businesscard_4-4",
+            "print_type": "business_card",
+            "print_size": "small",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/card-double.svg",
+            "prices": {
+                "100": "255.00",
+                "250": "270.00",
+                "500": "290.00",
+                "750": "310.00",
+                "1000": "330.00",
+                "1500": "360.00",
+                "2000": "385.00",
+                "2500": "420.00",
+                "5000": "575.00",
+                "10000": "850.00"
+            }
+        },
+        {
+            "title": "Jednostronna Wizytówka (4x6)",
+            "value": "postcard_4x6_4-0",
+            "print_type": "postcard",
+            "print_size": "large",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/card-single.svg",
+            "prices": {
+                "100": "155.00",
+                "250": "170.00",
+                "500": "190.00",
+                "750": "210.00",
+                "1000": "230.00",
+                "1500": "260.00",
+                "2000": "285.00",
+                "2500": "320.00",
+                "5000": "475.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Dwustronna Wizytówka (4x6)",
+            "value": "postcard_4x6_4-4",
+            "print_type": "postcard",
+            "print_size": "large",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/card-double.svg",
+            "prices": {
+                "100": "255.00",
+                "250": "270.00",
+                "500": "290.00",
+                "750": "310.00",
+                "1000": "330.00",
+                "1500": "360.00",
+                "2000": "385.00",
+                "2500": "420.00",
+                "5000": "575.00",
+                "10000": "850.00"
+            }
+        },
+        {
+            "title": "Jednostronna Wizytówka (8.5x11)",
+            "value": "postcard_8-5x11_4-0",
+            "print_type": "postcard",
+            "print_size": "small",
+            "print_side": "single",
+            "icon": "/images\/dropdown\/card-single.svg",
+            "prices": {
+                "100": "155.00",
+                "250": "170.00",
+                "500": "190.00",
+                "750": "210.00",
+                "1000": "230.00",
+                "1500": "260.00",
+                "2000": "285.00",
+                "2500": "320.00",
+                "5000": "475.00",
+                "10000": "750.00"
+            }
+        },
+        {
+            "title": "Dwustronna Wizytówka (8.5x11)",
+            "value": "postcard_8-5x11_4-4",
+            "print_type": "postcard",
+            "print_size": "small",
+            "print_side": "double",
+            "icon": "/images\/dropdown\/card-double.svg",
+            "prices": {
+                "100": "255.00",
+                "250": "270.00",
+                "500": "290.00",
+                "750": "310.00",
+                "1000": "330.00",
+                "1500": "360.00",
+                "2000": "385.00",
+                "2500": "420.00",
+                "5000": "575.00",
+                "10000": "850.00"
+            }
+        }
+    ]
+}

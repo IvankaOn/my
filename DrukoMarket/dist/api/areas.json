@@ -1,0 +1,330 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ursus",
+        "value": "ursus",
+        "code": "1",
+        "houses": "1478",
+        "cost": "100zł",
+        "color": "Blue",
+        "image": "/images\/shared-maps\/ursus.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.878576, 52.209954], [20.852655, 52.206483], [20.867246, 52.182702], [20.914625, 52.186070], [20.917800, 52.191910], [20.878576, 52.209954]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bemowo",
+        "value": "bemowo",
+        "code": "2",
+        "houses": "1978",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/bemowo.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.87062, 52.20923], [20.87839, 52.23212], [20.88931, 52.23197], [20.89459, 52.24650], [20.86388, 52.25007], [20.88268, 52.28109], [20.95199, 52.26261], [20.92627, 52.24324], [20.91475, 52.21443], [20.87062, 52.20923]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ochota",
+        "value": "ochota",
+        "code": "3",
+        "houses": "1888",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/ochota.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.93459, 52.21230], [21.00120, 52.22787], [21.00652, 52.21078], [20.98832, 52.21020], [20.98240, 52.19284], [20.94541, 52.20173], [20.93459, 52.21230]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Włochy",
+        "value": "wlochy",
+        "code": "4",
+        "houses": "1999",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/wlochy.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.88050, 52.20970], [20.91416, 52.21384], [20.93407, 52.21089], [20.94592, 52.20153], [20.98540, 52.19248], [20.98866, 52.14057], [20.91965, 52.16795], [20.91914, 52.17827], [20.91142, 52.17985], [20.91794, 52.19227], [20.88050, 52.20970]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wola",
+        "value": "wola",
+        "code": "5",
+        "houses": "2001",
+        "color": "Blue",
+        "image": "/images\/shared-maps\/wola.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.93425, 52.21289], [20.91569, 52.21488], [20.92599, 52.24306], [20.94659, 52.25420], [20.97972, 52.25904], [21.00049, 52.22845], [20.93425, 52.21289]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Żoliborz",
+        "value": "zoliborz",
+        "code": "6",
+        "houses": "2002",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/zoliborz.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.94751, 52.25626], [20.96571, 52.27409], [20.99472, 52.28745], [21.01026, 52.26168], [20.98101, 52.25968], [20.94751, 52.25626]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bielany",
+        "value": "bielany",
+        "code": "7",
+        "houses": "2003",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/bielany.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.95267, 52.26311], [20.87593, 52.28086], [20.87954, 52.31393], [20.92571, 52.32453], [20.99438, 52.28790], [20.95267, 52.26311]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ursynów",
+        "value": "ursynow",
+        "code": "8",
+        "houses": "2004",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/ursynow.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.98692, 52.17159], [20.98449, 52.10559], [21.05684, 52.10753], [21.07893, 52.09828], [21.10321, 52.10618], [21.04470, 52.17487], [21.03523, 52.16757], [20.98692, 52.17159]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mokotów",
+        "value": "mokotow",
+        "code": "9",
+        "houses": "2005",
+        "color": "Blue",
+        "image": "/images\/shared-maps\/mokotow.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.04470, 52.17520], [21.03523, 52.16807], [20.98692, 52.17209], [20.98840, 52.21017], [21.02187, 52.21322], [21.03612, 52.20985], [21.06599, 52.22100], [21.09620, 52.21385], [21.10513, 52.19428], [21.09157, 52.18102], [21.08110, 52.18449], [21.05414, 52.16934], [21.04470, 52.17520]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wilanów",
+        "value": "wilanow",
+        "code": "10",
+        "houses": "2006",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/wilanow.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.10122, 52.10871], [21.04942, 52.16816], [21.06850, 52.17037], [21.06316, 52.17506], [21.08178, 52.18454], [21.09462, 52.18046], [21.10473, 52.19577], [21.16492, 52.14513], [21.10122, 52.10871]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Śródmieście",
+        "value": "srodmiescie",
+        "code": "11",
+        "houses": "2007",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/srodmiescie.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.98072, 52.25904], [21.00434, 52.22309], [21.00593, 52.21133], [21.02109, 52.21433], [21.03697, 52.21000], [21.06425, 52.21929], [21.01041, 52.26172], [20.98072, 52.25904]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wawer",
+        "value": "wawer",
+        "code": "12",
+        "houses": "2009",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/wawer.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.093293, 52.215785], [21.124192, 52.232399], [21.138526, 52.243910], [21.141272, 52.239390], [21.176291, 52.245171], [21.212168, 52.230244], [21.215773, 52.198059], [21.265439, 52.184970], [21.262387, 52.153113], [21.255521, 52.147846], [21.234750, 52.158905], [21.165570, 52.145002], [21.116467, 52.185694], [21.093293, 52.215785]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Praga Południe",
+        "value": "praga_poludnie",
+        "code": "13",
+        "houses": "876",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/praga_poludnie.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.037474, 52.239276], [21.044255, 52.248964], [21.115024, 52.259182], [21.131891, 52.239276], [21.125109, 52.232674], [21.092768, 52.215951], [21.092638, 52.215602], [21.060588, 52.220684], [21.037474, 52.239276]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Praga Północ",
+        "value": "praga_polnoc",
+        "code": "14",
+        "houses": "476",
+        "color": "DodgerBlue",
+        "image": "/images\/shared-maps\/praga_polnoc.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.994993, 52.287826], [21.012810, 52.294653], [21.027863, 52.271538], [21.074835, 52.255321], [21.044246, 52.248768], [21.037488, 52.239131], [21.015517, 52.259692], [20.994993, 52.287826]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Białołęka",
+        "value": "bialoleka",
+        "code": "15",
+        "houses": "1934",
+        "color": "Blue",
+        "image": "/images\/shared-maps\/bialoleka.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[20.994569, 52.288067], [20.954052, 52.308389], [20.927818, 52.326920], [20.915284, 52.353990], [20.924320, 52.360221], [20.965712, 52.368231], [20.971542, 52.359687], [21.005646, 52.364137], [21.009727, 52.357017], [21.022553, 52.357373], [21.027216, 52.365383], [21.071815, 52.367341], [21.089013, 52.323892], [21.077353, 52.322110], [21.082891, 52.307676], [21.061029, 52.307676], [20.994569, 52.288067]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Targówek",
+        "value": "targowek",
+        "code": "16",
+        "houses": "576",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/targowek.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.012967, 52.294432], [21.060471, 52.307371], [21.083082, 52.307371], [21.095321, 52.286946], [21.104242, 52.274635], [21.107353, 52.274762], [21.110880, 52.259782], [21.093075, 52.258127], [21.077153, 52.254414], [21.055492, 52.263337], [21.037030, 52.268669], [21.026658, 52.272097], [21.020642, 52.281997], [21.019812, 52.287073], [21.012967, 52.294432]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Rembertów",
+        "value": "rembertow",
+        "code": "17",
+        "houses": "1976",
+        "color": "Blue",
+        "image": "/images\/shared-maps\/rembertow.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.108005, 52.274452], [21.148689, 52.279390], [21.161306, 52.285481], [21.165426, 52.290469], [21.169718, 52.290941], [21.172807, 52.288631], [21.170662, 52.277342], [21.184910, 52.267206], [21.180189, 52.256699], [21.190317, 52.256069], [21.190918, 52.250026], [21.182678, 52.249606], [21.184414, 52.246498], [21.163832, 52.241753], [21.161535, 52.243255], [21.141304, 52.239128], [21.138731, 52.243777], [21.132483, 52.238991], [21.129814, 52.240444], [21.131848, 52.243272], [21.115030, 52.256783], [21.115202, 52.259252], [21.110745, 52.259868], [21.108287, 52.268265], [21.108005, 52.274452]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Wesoła",
+        "value": "wesola",
+        "code": "18",
+        "houses": "476",
+        "color": "MediumPurple",
+        "image": "/images\/shared-maps\/wesola.jpg",
+        "icon": "/images\/dropdown\/map-dot.svg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[21.176124, 52.245221], [21.184141, 52.246456], [21.184327, 52.246924], [21.182787, 52.249520], [21.186681, 52.250406], [21.186915, 52.251696], [21.188736, 52.252237], [21.190375, 52.249880], [21.191104, 52.250055], [21.190375, 52.256091], [21.254005, 52.263144], [21.252626, 52.253431], [21.254707, 52.253256], [21.253615, 52.245755], [21.238839, 52.245006], [21.238969, 52.243286], [21.238162, 52.243350], [21.239178, 52.241605], [21.237919, 52.239542], [21.239141, 52.237161], [21.240511, 52.236118], [21.249027, 52.236731], [21.254655, 52.238681], [21.254026, 52.235181], [21.250191, 52.231562], [21.250193, 52.222822], [21.261684, 52.209944], [21.248322, 52.206386], [21.249139, 52.202802], [21.238765, 52.197061], [21.215628, 52.197523], [21.215251, 52.202070], [21.216446, 52.204536], [21.218395, 52.205037], [21.214434, 52.209121], [21.215628, 52.212742], [21.211593, 52.229983], [21.176124, 52.245221]]
+        ]
+      }
+    }
+  ]
+}

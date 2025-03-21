@@ -83,7 +83,7 @@ function createRecommendedProductsSection(categoryName, imgName, products){
     wrap.append(wrapRight);
     wrapRight.innerHTML = `
     
-    <a href="/printing/business-cards" class="btn-link">
+    <a href="/my/PrintPenguin/view/catalog/product.html" class="btn-link">
     <div class="card-product grey">
         <div class="card-product-image" style="background-image: url('/assets/img/test-card-img.png')"></div>
         <div class="card-product-body">
@@ -94,7 +94,7 @@ function createRecommendedProductsSection(categoryName, imgName, products){
         </div>
     </div>
 </a>
-<a href="/printing/business-cards" class="btn-link">
+<a href="/my/PrintPenguin/view/catalog/product.html" class="btn-link">
 <div class="card-product grey">
     <div class="card-product-image" style="background-image: url('/assets/img/test-card-img.png')"></div>
     <div class="card-product-body">
@@ -105,7 +105,7 @@ function createRecommendedProductsSection(categoryName, imgName, products){
     </div>
 </div>
 </a>
-<a href="/printing/business-cards" class="btn-link">
+<a href="/my/PrintPenguin/view/catalog/product.html" class="btn-link">
 <div class="card-product grey">
     <div class="card-product-image" style="background-image: url('/assets/img/test-card-img.png')"></div>
     <div class="card-product-body">
@@ -116,7 +116,7 @@ function createRecommendedProductsSection(categoryName, imgName, products){
     </div>
 </div>
 </a>
-<a href="/printing/business-cards" class="btn-link">
+<a href="/my/PrintPenguin/view/catalog/product.html" class="btn-link">
 <div class="card-product grey">
     <div class="card-product-image" style="background-image: url('/assets/img/test-card-img.png')"></div>
     <div class="card-product-body">

@@ -41,35 +41,35 @@ if (isset($error_code)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="//my/PrintPenguin/assets/theme/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="//my/PrintPenguin/assets/theme/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="//my/PrintPenguin/assets/theme/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="//my/PrintPenguin/assets/theme/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/theme/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/theme/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/theme/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/theme/favicon-96x96.png">
 
-    <link rel="icon" type="image/png" sizes="36x36" href="//my/PrintPenguin/assets/theme/android-icon-36x36.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="//my/PrintPenguin/assets/theme/android-icon-48x48.png">
-    <link rel="icon" type="image/png" sizes="72x72" href="//my/PrintPenguin/assets/theme/android-icon-72x72.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="//my/PrintPenguin/assets/theme/android-icon-96x96.png">
-    <link rel="icon" type="image/png" sizes="144x144" href="//my/PrintPenguin/assets/theme/android-icon-144x144.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="//my/PrintPenguin/assets/theme/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="256x256" href="//my/PrintPenguin/assets/theme/android-icon-256x256.png">
-    <link rel="icon" type="image/png" sizes="384x384" href="//my/PrintPenguin/assets/theme/android-icon-384x384.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="//my/PrintPenguin/assets/theme/android-icon-512x512.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="/assets/theme/android-icon-36x36.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/theme/android-icon-48x48.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="/assets/theme/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/theme/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/assets/theme/android-icon-144x144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/theme/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="/assets/theme/android-icon-256x256.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="/assets/theme/android-icon-384x384.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/theme/android-icon-512x512.png">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="//my/PrintPenguin/assets/theme/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="//my/PrintPenguin/assets/theme/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="//my/PrintPenguin/assets/theme/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="//my/PrintPenguin/assets/theme/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="//my/PrintPenguin/assets/theme/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="//my/PrintPenguin/assets/theme/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="//my/PrintPenguin/assets/theme/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="//my/PrintPenguin/assets/theme/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="//my/PrintPenguin/assets/theme/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/theme/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/theme/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/theme/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/theme/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/theme/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/theme/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/theme/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/theme/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/theme/apple-icon-180x180.png">
 
-    <link rel="manifest" href="//my/PrintPenguin/assets/theme/manifest.json">
+    <link rel="manifest" href="/assets/theme/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="//my/PrintPenguin/assets/theme/ms-icon-144x144.png">
-    <meta name="msapplication-config" content="//my/PrintPenguin/assets/theme/browserconfig.xml" />
+    <meta name="msapplication-TileImage" content="/assets/theme/ms-icon-144x144.png">
+    <meta name="msapplication-config" content="/assets/theme/browserconfig.xml" />
     <meta name="theme-color" content="#009fe3">
 
     <title>PrintPenguin</title>
